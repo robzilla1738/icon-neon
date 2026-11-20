@@ -1,0 +1,57 @@
+{
+  "name": "@neon-icons/react",
+  "version": "1.0.0",
+  "description": "Tree-shakeable React components for Neon Icons — 530 cohesive icons in outline and filled styles across 1.25, 1.5, and 2px strokes.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": ["./motion.css"],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "motion.css"
+  ],
+  "exports": {
+    "./motion.css": "./motion.css",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./outline/1.25": {
+      "types": "./dist/generated/outline/1.25/index.d.ts",
+      "import": "./dist/generated/outline/1.25/index.js"
+    },
+    "./outline/1.5": {
+      "types": "./dist/generated/outline/1.5/index.d.ts",
+      "import": "./dist/generated/outline/1.5/index.js"
+    },
+    "./outline/2": {
+      "types": "./dist/generated/outline/2/index.d.ts",
+      "import": "./dist/generated/outline/2/index.js"
+    },
+    "./filled/1.25": {
+      "types": "./dist/generated/filled/1.25/index.d.ts",
+      "import": "./dist/generated/filled/1.25/index.js"
+    },
+    "./filled/1.5": {
+      "types": "./dist/generated/filled/1.5/index.d.ts",
+      "import": "./dist/generated/filled/1.5/index.js"
+    },
+    "./filled/2": {
+      "types": "./dist/generated/filled/2/index.d.ts",
+      "import": "./dist/generated/filled/2/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "react": "^19.0.0"
+  }
+}

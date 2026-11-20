@@ -1,0 +1,531 @@
+Icon,Category,Artwork,Visual check
+arrow-up,arrows,Reviewed,The vertical shaft joins both arrowhead arms at one apex and carries equal visual weight below.
+arrow-down,arrows,Reviewed,The lower point remains centered below evenly sloped shoulders.
+arrow-left,arrows,Reviewed,The left-facing point and horizontal tail share the same centerline.
+arrow-right,arrows,Reviewed,The right-facing head retains two even diagonal wings around a straight shaft.
+arrow-up-left,arrows,Reviewed,The orthogonal head arms are equal and meet the diagonal at its tip.
+arrow-up-right,arrows,Reviewed,The northeast corner keeps consistent leg lengths and a single joined apex.
+arrow-down-left,arrows,Reviewed,The descending shaft ends squarely at the left corner of the head.
+arrow-down-right,arrows,Reviewed,The southeast point preserves the same acute silhouette at small sizes.
+arrow-up-down,arrows,Reviewed,The two vertical shafts have enough lateral pitch to keep both heads readable.
+arrow-left-right,arrows,Reviewed,The two horizontal rows stay visually distinct through their opposing heads.
+arrows-expand,arrows,Reviewed,The paired corner heads point outward and the center remains open.
+arrows-collapse,arrows,Reviewed,The inward arrowheads retain a distinct diagonal break between the two points.
+arrow-up-circle,arrows,Reviewed,The top arrow point clears the enclosing ring at the heavy outline.
+arrow-down-circle,arrows,Reviewed,The bottom point remains open inside the circle and legible as a knockout.
+arrow-left-circle,arrows,Reviewed,The inner arrow has visible clearance on the left and right sides of the rim.
+arrow-right-circle,arrows,Reviewed,The right point stays separate from the ring and the negative arrow remains centered.
+chevron-up,arrows,Reviewed,The shallow upward apex stays distinct from an arrowhead with a stem.
+chevron-down,arrows,Reviewed,The two descending sides meet at equal angles.
+chevron-left,arrows,Reviewed,The sideways bracket has equal top and bottom arms.
+chevron-right,arrows,Reviewed,The open right-facing bracket keeps a regular inner corner when thickened.
+chevrons-up,arrows,Reviewed,Both stacked peaks repeat at the same pitch without merging.
+chevrons-down,arrows,Reviewed,The downward peaks have a consistent open channel between them.
+chevrons-left,arrows,Reviewed,The pair of left-facing brackets stays distinct in heavy filled.
+chevrons-right,arrows,Reviewed,The right-facing pair keeps matching angles and a consistent interior lane.
+chevrons-up-down,arrows,Reviewed,The opposing peaks stay balanced around the shared open midpoint.
+caret-up,arrows,Revised,The taller triangle preserves an inner opening at heavy outline and a clean upward point.
+caret-down,arrows,Revised,The deeper downward triangle matches the up caret while keeping the outline aperture.
+caret-left,arrows,Revised,The left point uses the taller caret proportions rotated around the canvas center.
+caret-right,arrows,Revised,The right point matches its reflected partner with a clean interior triangle.
+corner-down-left,arrows,Reviewed,The returning bend is rounded while the lower arrowhead reads clearly to the left.
+corner-down-right,arrows,Reviewed,The lower-right return preserves the same bend radius and arm lengths.
+corner-up-left,arrows,Reviewed,The upper-left return keeps its horizontal exit clearly above the lower leg.
+corner-up-right,arrows,Reviewed,The mirrored return turns cleanly into the upper-right arrowhead.
+undo,arrows,Reviewed,The upper-left head joins the curve without a sharp shoulder in the tail.
+redo,arrows,Reviewed,The mirrored right-facing head stays legible over the lower return.
+refresh-cw,arrows,Reviewed,The upper and lower arc openings preserve separate tangential arrowheads.
+refresh-ccw,arrows,Reviewed,The counterclockwise pair mirrors both the round arcs and the open ends.
+rotate-cw,arrows,Reviewed,The single arc stays distinct from its square-ended head and the lower opening remains readable.
+rotate-ccw,arrows,Reviewed,The counterclockwise opening and head reverse consistently at all three weights.
+repeat,arrows,Reviewed,The rounded travel paths preserve a visible gap between opposite heads.
+shuffle,arrows,Revised,Wider breaks keep the two routes distinct at the crossing and separate both exit heads.
+external-link,arrows,Reviewed,The diagonal exit clears both open frame endpoints.
+log-in,arrows,Reviewed,The arrow and door jamb remain distinct through the entrance.
+log-out,arrows,Reviewed,The exit reverses the door composition and preserves the same edge clearance.
+move,arrows,Reviewed,The four tips extend evenly from the central crossing without pinching their inner diagonals.
+maximize,arrows,Reviewed,The four open perpendicular corners remain balanced around the empty center.
+minimize,arrows,Reviewed,The inward-facing corners preserve enough center opening at 2.0 weight.
+home,interface,Reviewed,The doorway remains recognizable inside the wider roof silhouette at 16 px.
+search,interface,Reviewed,The handle joins the circular lens along a radius and the lens stays round.
+zoom-in,interface,Reviewed,The plus is centered with clear air around all four arms inside the lens.
+zoom-out,interface,Reviewed,The short minus remains legible without crowding the circular rim.
+menu,interface,Reviewed,The equal-length bars preserve even vertical pitch and matching round caps.
+more-horizontal,interface,Reviewed,The three dots keep even pitch around the middle dot.
+more-vertical,interface,Reviewed,The three vertically stacked dots keep equal apparent size.
+plus,interface,Reviewed,The crossed strokes use equal arms and meet at a clean central joint.
+minus,interface,Reviewed,The centered dash stays clear and level through all stroke weights.
+x,interface,Reviewed,The diagonals meet on center and hold equal four-way reach.
+check,interface,Reviewed,The long rising arm remains longer than the entry stroke at 16 px.
+check-double,interface,Revised,The second short return moves away from the first tick so both ascending strokes read separately.
+equal,interface,Reviewed,The two parallel lines retain equal length and consistent intervening space.
+plus-circle,interface,Reviewed,The cross keeps distinct arms centered within the circular frame.
+minus-circle,interface,Reviewed,The horizontal knockout stays readable inside the outline and filled disk.
+x-circle,interface,Reviewed,The four diagonal ends remain clear of the circular rim.
+check-circle,interface,Reviewed,The check remains balanced inside the circle without approaching the top-right rim.
+plus-square,interface,Reviewed,The centered cross has equal projection inside the matching square corners.
+check-square,interface,Reviewed,The check is placed above the lower-left corner with enough room around its rising arm.
+x-square,interface,Reviewed,The cross preserves white space between its diagonals and the four rounded corners.
+settings,interface,Reviewed,The axle hole stays open and visually distinct from the evenly spaced gear teeth.
+sliders,interface,Reviewed,Each ring is met on its horizontal centerline and the two controls keep matching diameters.
+sliders-vertical,interface,Reviewed,The vertical track rotation preserves both control offsets and knob sizes.
+filter,interface,Reviewed,The funnel shoulders taper into a clear outlet and read consistently in outline and solid.
+sort-asc,interface,Reviewed,The three row endpoints step toward the up arrow without touching it.
+sort-desc,interface,Reviewed,The downward arrow remains separate from the descending bars.
+edit,interface,Reviewed,The pencil stays detached from the writing baseline while its diagonal tip reads cleanly.
+edit-square,interface,Reviewed,The pencil passes through the open corner with clearance from both frame ends.
+trash,interface,Reviewed,The handle centers over the lid and the two body slots stay readable inside the taper.
+copy,interface,Reviewed,The forward square and broken edge of the rear square remain separate.
+clipboard,interface,Reviewed,The top clip is centered and detaches cleanly from the board in filled.
+clipboard-check,interface,Reviewed,The main check clears both the clipboard clip and the side walls.
+scissors,interface,Reviewed,The blade crossing and round finger loops remain distinct at the heavy weight.
+download,interface,Reviewed,The downward arrow remains separate from the tray floor and its open corners.
+upload,interface,Reviewed,The upward arrow clears the tray’s upper opening without becoming part of its rim.
+share,interface,Reviewed,The arrow shaft stays centered in the notch between the equal tray stubs.
+share-2,interface,Reviewed,The two right dots balance around the left node and connectors meet their centers.
+save,interface,Reviewed,The top label and lower slot read as separate recesses in the disk silhouette.
+bookmark,interface,Reviewed,The two lower diagonal edges meet at a centered notch.
+pin,interface,Reviewed,The cap and needle align diagonally and the pin body remains easy to distinguish.
+pin-off,interface,Reviewed,The slash and diagonally opposed cap and needle have a continuous band of clearance.
+eye,interface,Reviewed,The pupil remains concentric with the two curved lids.
+eye-off,interface,Reviewed,The two visible iris halves keep clearance around the diagonal separator.
+grip-vertical,interface,Reviewed,All six dots share their radius and equal column pitch.
+grip-horizontal,interface,Reviewed,The six dots transpose the vertical grip at consistent lateral pitch.
+command,interface,Reviewed,The four loops join the perpendicular bars with equal clear inner openings.
+sidebar-left,layout,Reviewed,The sidebar strip is visibly narrower than the main pane.
+sidebar-right,layout,Reviewed,The filled right strip and its open pane reverse the left layout.
+panel-top,layout,Reviewed,The horizontal top strip stays on the same frame grid with clear view below.
+panel-bottom,layout,Reviewed,The lower strip mirrors the top panel around the horizontal midpoint.
+panel-left-close,layout,Reviewed,The left chevron clears the sidebar divider and outer window edge.
+panel-left-open,layout,Reviewed,The right chevron remains centered in the main pane across the weight range.
+layout-grid,layout,Reviewed,The four apertures have equal width and height with evenly spaced gutters.
+layout-list,layout,Reviewed,Both rows repeat the same square marker and descending pair of text lengths.
+layout-dashboard,layout,Reviewed,The vertical pane stays separated from the stacked smaller tiles.
+layout-columns,layout,Revised,An expanded gutter keeps both tall panels visibly detached at 16 px.
+layout-rows,layout,Revised,The transposed wider gutter leaves room between the two horizontal panels.
+layout-kanban,layout,Reviewed,The three heads align while lower endpoints show deliberately different card heights.
+columns-2,layout,Reviewed,The single full-height divider divides the frame on its centerline.
+columns-3,layout,Reviewed,The two equal dividers create three readable channels at heavy outline.
+rows-2,layout,Reviewed,Two equally sized rows stay separated along the horizontal midpoint.
+rows-3,layout,Reviewed,The stacked compartments preserve even spacing around both rules.
+split-horizontal,layout,Reviewed,Both outward arrowheads retain an open gap beside the vertical divider.
+split-vertical,layout,Reviewed,The upper and lower arrowheads sit equidistant from the horizontal rule.
+app-window,layout,Reviewed,The two top indicators sit on the same baseline above the open pane.
+browser,layout,Reviewed,The profile tab and flat browser header remain evident in both styles.
+tabs,layout,Reviewed,The three equal tabs have matching widths under the rounded outer corners.
+layers,layout,Reviewed,The detached lower chevrons keep the same contour pitch beneath the top diamond.
+stack,layout,Reviewed,The progressively shorter top cards clear each other and the front card.
+box-select,layout,Reviewed,The dashed frame maintains even openings through its rounded corner pattern.
+crop,layout,Reviewed,The two extending crop corners cross on their axes without disturbing the open center.
+fullscreen,layout,Reviewed,The outward-facing internal corners remain clear of every side of the window frame.
+exit-fullscreen,layout,Reviewed,The two inside corners face one another with diagonal balance and adequate interior clearance.
+picture-in-picture,layout,Reviewed,The compact inset clears the lower and right frame edges in outline.
+file,files,Reviewed,The folded corner remains distinct from the rounded body.
+file-text,files,Reviewed,The upper text line and shorter second line are set below the fold with clear spacing.
+file-plus,files,Reviewed,The cross is centered below the fold and its upper arm remains separate.
+file-minus,files,Reviewed,The line sits in the same body region as the related plus and check.
+file-check,files,Reviewed,The long check arm clears the boundary below the fold.
+file-x,files,Reviewed,The four arms of the cancellation mark read in the open body area without touching the fold.
+file-code,files,Reviewed,The angle brackets have open inner channels and a distinct gap between their facing ends.
+file-json,files,Reviewed,Both brace waists remain noticeably curled beneath the fold.
+file-image,files,Revised,The inset landscape no longer meets the page edge and the sunlight dot stays separate above it.
+file-video,files,Reviewed,The small right-facing triangle preserves an inner aperture at useful reading sizes.
+file-audio,files,Revised,The note head connects to the flag through a visible stem and has a clean solid shape at small sizes.
+file-spreadsheet,files,Reviewed,Four equal cells read as a compact table beneath the page corner.
+file-archive,files,Reviewed,The zipper pull and isolated teeth stay readable to the left of the fold.
+file-search,files,Reviewed,A clear lower-right opening holds the search lens and its diagonal handle.
+file-lock,files,Reviewed,The outline lock and local knockout separate the rounded shackle from the folded page.
+file-symlink,files,Reviewed,The bent shortcut arrow clears the nearby folded corner.
+folder,files,Reviewed,The shoulder and raised tab remain distinct across weights.
+folder-open,files,Reviewed,The leading lip and folder rear wall create a clear sloping opening.
+folder-plus,files,Reviewed,The central plus stays balanced inside the body beneath the raised tab.
+folder-minus,files,Reviewed,The minus aligns with the related folder controls and stays away from the tab.
+folder-check,files,Reviewed,The check has even breathing room inside the body and under the tab shelf.
+folder-search,files,Reviewed,The lens and handle remain visible against the upper and lower edges of the cutaway.
+folder-lock,files,Reviewed,The bundled lock sits cleanly in the lower-right opening without crowding the tab.
+folder-archive,files,Revised,The zipper now begins below the shoulder and its pull clears the lower rim.
+archive,files,Reviewed,The handle remains distinct from the rim break and centered on the box.
+inbox,files,Reviewed,The central tray notch keeps its floor and remains visible across all weights.
+paperclip,files,Reviewed,The curved turns lead into parallel diagonal runs with a readable nested channel.
+hard-drive,files,Reviewed,Both status dots clear the tapered housing and remain legible as cutouts in filled.
+mail,communication,Reviewed,The flap forms an even centered V and meets both sides at the same height.
+mail-open,communication,Reviewed,The pointed flap and front fold share a vertical axis inside the envelope.
+mail-plus,communication,Revised,The plus stays detached from the envelope corners with both arms readable in the filled cutaway.
+mail-check,communication,Revised,The drawn check clears the surrounding envelope cutaway at its long tip and lower elbow.
+mail-warning,communication,Revised,The stem and dot are separate from each other and visually distinct from the envelope.
+send,communication,Reviewed,The inner fold meets the outer contour at the plane's pointed tip without stray overlap.
+reply,communication,Reviewed,The left-facing arrow meets the curved return shaft at its midpoint.
+reply-all,communication,Reviewed,The duplicate head clears the main one and both tips stand on the same horizontal axis.
+forward,communication,Reviewed,"The right-facing counterpart preserves reply's shaft curvature, head angle, and stroke rhythm."
+message-circle,communication,Reviewed,The short tail blends into the oval without pinching its bottom-left curve.
+message-square,communication,Reviewed,The lower-left corner flows into the tail and returns to the lower edge cleanly.
+messages-square,communication,Reviewed,The rear bubble remains distinct along its exposed right and lower edges.
+message-plus,communication,Reviewed,The equal arms are centered in the round area and maintain clearance from the tail and outline.
+message-dots,communication,Reviewed,"Three similarly sized dots sit at equal intervals on the centerline, including in the cutout style."
+quote,communication,Reviewed,Both quotation marks share a curved shoulder and keep open counters at each weight.
+phone,communication,Reviewed,The two pads mirror along the receiver diagonal without a bump at the inner bend.
+phone-call,communication,Reviewed,The two quarter-arcs preserve concentric spacing above the handset.
+phone-incoming,communication,Reviewed,The arrow's two inner arms stay separated from the handset around the diagonal tip.
+phone-outgoing,communication,Reviewed,The outer pointing arrow has equal arms and adequate clearance between the shaft and receiver.
+phone-missed,communication,Reviewed,The X stays centered over the receiver and distinct from its hand pads.
+phone-off,communication,Reviewed,Both ends of the downturned receiver read clearly under the continuous diagonal slash.
+voicemail,communication,Revised,Both reel apertures remain equally legible and their lower tangent meets a common tape baseline.
+bell,communication,Reviewed,The dome and clapper remain clear of each other across the whole weight range.
+bell-off,communication,Reviewed,Matching clear bands on the sides of the slash leave recognizable dome fragments and a distinct clapper.
+bell-ring,communication,Reviewed,The side accents mirror above the rim without crossing it.
+bell-dot,communication,Reviewed,The notification circle stays centered in the interrupted upper-right seam beside the dome.
+megaphone,communication,Revised,The load-bearing grip connects at both ends beneath the cone and the curved wave sits clear of the mouth.
+at-sign,communication,Reviewed,The loop around the centered counter opens smoothly into the end of the outer ring.
+hash,communication,Reviewed,"Both angled stems match in lean and length, crossing two equal horizontal bars."
+contact,communication,Reviewed,The three binding tabs align outside the frame and the portrait retains distinct head and shoulders.
+user,users,Reviewed,The round head sits above the shoulder arch with visible daylight at the heavy weight.
+user-circle,users,Reviewed,The head and shoulder arch fit inside the rim with clearance at both ends.
+user-plus,users,Reviewed,The badge has equal arms and reads beside the shortened shoulder at 16 px.
+user-minus,users,Reviewed,The minus has a single level stroke and stays clear of the bent shoulder.
+user-check,users,Reviewed,The upstroke is longer than the entry leg and each end clears the portrait.
+user-x,users,Reviewed,Equal diagonals cross at the badge center and stay separate from the portrait.
+user-cog,users,Revised,A smaller gear with an open center stays subordinate to the head and clear of the shoulder.
+user-shield,users,Reviewed,The two top corners and pointed bottom remain distinct beside the portrait.
+users,users,Reviewed,The right-side head arc and shoulder are recognizable behind the full first figure.
+users-plus,users,Reviewed,Two distinct heads survive above the plus and the primary shoulder stays clear of it.
+id-card,users,Revised,The head rises above the shoulder arch with a visible gap and the two text rows stay distinct.
+badge-check,users,Reviewed,The suspension slot sits above the check with enough distance to read separately.
+smile,users,Reviewed,The mouth’s low point lies between two eyes on a shared baseline.
+frown,users,Reviewed,The upward mouth arch retains enough separation from the eyes at the heaviest weight.
+meh,users,Reviewed,The level mouth stays far enough below the eyes to keep the expression neutral.
+thumbs-up,users,Reviewed,The cuff seam enters the palm at a right angle and the upper tip remains visible.
+thumbs-down,users,Reviewed,The cuff and sloping thumb keep their proportions after the half-turn.
+hand,users,Reviewed,The thumb reads from the open side and the finger seams tell apart the four fingertips.
+accessibility,users,Revised,The head clears the horizontal arms and the lower figure stays within the frame.
+footprints,users,Reviewed,The offset feet retain separate heels and don’t overlap across the central gap.
+lock,security,Reviewed,The centered shackle keeps an open counter and meets the case twice at matching heights.
+lock-open,security,Reviewed,The cut-off right side stays well above the case so it reads unlocked at 16 px.
+lock-keyhole,security,Reviewed,"The centered keyhole stays clear of the case, and its head remains larger than its stem."
+key,security,Reviewed,A round bow meets the diagonal shaft cleanly and both teeth remain distinguishable.
+key-round,security,Reviewed,The two differing tooth lengths balance the round bow without crowding its small center.
+fingerprint,security,Revised,Widened the pitch between the five staggered ridges so the rightmost ridges stay separate when bold.
+scan-face,security,Reviewed,All corner brackets match and the smiling face still fits between them at the smallest size.
+shield,security,Reviewed,"The shoulder slope, broad flat walls, and curved point are even on both sides."
+shield-check,security,Reviewed,The shallow end of the check and its raised tip leave breathing room against the shield walls.
+shield-alert,security,Reviewed,The alert dot and stem remain separate inside the tapered shield.
+shield-x,security,Reviewed,Both diagonal arms share one center and leave clear space on the narrowing shield.
+shield-off,security,Reviewed,Viewed both tapered fragments and the two even rails beside the diagonal at the heaviest weight.
+shield-lock,security,Reviewed,The lock shackle counter stays clear over the body within the shield.
+verified,security,Reviewed,The seal’s repeated notches and central check stay independently visible.
+incognito,security,Revised,Separated hat brim from lenses and aligned the low bridge to read as glasses at small size.
+bug,security,Reviewed,"The side legs meet the shell, mirrored antennae meet the head, and the division between wings stays visible."
+siren,security,Reviewed,"The two angled rays bracket the centered beacon, with matching diagonals and a level pedestal."
+vault,security,Revised,"Opened up the three-spoke dial, shortened its handle, and carried the hinges outside the door to keep the filled perimeter intact."
+passkey,security,Revised,Opened the key bow’s inner hole so it remains distinct from the adjacent solid portrait.
+qr-code,security,Reviewed,The three finder squares and two data marks retain clear breaks at the bold weight.
+sparkles,ai,Reviewed,The two glints retain separate silhouettes at the closest opposing tips.
+sparkle,ai,Reviewed,All four tips have equal reach and the hollow core stays visible in heavy outline.
+wand,ai,Reviewed,"The rays fan out from the wand tip with distinct spaces between the cross, rays, and shaft."
+bot,ai,Reviewed,"The ears sit at equal heights and the centered antenna, eyes, and mouth remain distinct."
+brain,ai,Reviewed,The lobes match on each side and the short inner folds remain clear of the central seam.
+cpu-ai,ai,Reviewed,The paired pins use the same pitch on all sides and the star clears the chip frame.
+stars,ai,Reviewed,The three glints read as a cluster while the smallest outline remains visible.
+workflow,ai,Reviewed,Two equally sized terminal nodes connect through a diagonal stepped route.
+nodes,ai,Reviewed,The three identical nodes anchor a closed triangle with the joints aligned at their centers.
+circuit,ai,Reviewed,Both circular contacts read distinctly and the right-angle traces land cleanly at their rims.
+prompt,ai,Revised,"The chevron and glint share a baseline axis, and the star aperture stays open without crowding the frame."
+chat-ai,ai,Reviewed,The interior glint clears the shortened speech tail and remains centered in the round part of the bubble.
+image-ai,ai,Reviewed,The landscape remains legible below the detached sparkle and fits inside the open frame corner.
+code-ai,ai,Reviewed,The middle sparkle clears both matching chevrons at the closest opposing points.
+radar,ai,Reviewed,The detached return dot and the sweep stay distinct within the inner and outer ring.
+atom,ai,Reviewed,The equal crossing ellipses keep four open lobes around the nucleus.
+orbit,ai,Revised,Two equal-size satellites clear the ends of both interrupted arcs while the central planet remains distinct.
+telescope,ai,Revised,The eyepiece is coaxial with the barrel and the tripod feet land on one baseline below a single mount.
+flask,ai,Reviewed,The sidewalls flare evenly from the neck to the base and the liquid line stays level.
+microscope,ai,Revised,The tilted objective faces the stage and the rear arm joins the base without a gap or a doubled foot.
+code,development,Reviewed,"The opposite brackets have matched height and opening angle, leaving generous interior clearance."
+code-2,development,Reviewed,The slash clears the nearest bracket ends and the opposing angles mirror under a half-turn.
+terminal,development,Reviewed,The cursor lines up with the lower chevron endpoint without colliding with it.
+terminal-square,development,Reviewed,The prompt and cursor fit inside the rounded frame with a clear lower margin.
+braces,development,Reviewed,Both curl shoulders round into pointed midline cusps at the same height.
+brackets,development,Reviewed,The top and bottom tabs run to equal lengths on each upright.
+regex,development,Reviewed,The short dot and six evenly spaced rays remain distinct at 16 px.
+git-branch,development,Reviewed,The curved diverging branch has a smooth tangent and both elevated nodes share a baseline.
+git-commit,development,Reviewed,The single node sits centered between matching horizontal stem segments.
+git-merge,development,Reviewed,The second lower node connects smoothly without flattening the vertical trunk.
+git-pull-request,development,Reviewed,The returning arrow is distinct from the parallel main stem and both lower nodes.
+git-fork,development,Reviewed,The two equal top nodes feed a balanced fork into one centered lower node.
+git-compare,development,Reviewed,The opposite arrows reverse cleanly around the center while the two terminal nodes remain aligned.
+git-diff,development,Reviewed,The plus and minus stay horizontally centered and maintain separate rows within the panel.
+database,development,Reviewed,The broad ellipse and even stack of bands remain readable in both interior-paint treatments.
+server,development,Reviewed,Twin equal server bays maintain a consistent middle gap and align their indicator dots.
+cpu,development,Reviewed,"Both rows of pins align along each edge, and the center square stays open."
+memory-stick,development,Reviewed,"The narrow teeth keep even pitch below a single connected body, with three distinct inside marks."
+cloud,development,Reviewed,The main arc meets the smaller lobes without a right-side corner or a gap along the base.
+cloud-upload,development,Revised,The upward arrow sits between equally exposed lower cloud shoulders without a stray backtracking segment.
+cloud-download,development,Revised,The lower pointing arrow clears the two bottom cloud endpoints at its widest part.
+cloud-off,development,Reviewed,The diagonal interruption leaves the upper lobe and the bottom shoulder recognizable.
+cloud-check,development,Reviewed,Both check arms clear the lobe wall and remain readable as a single mark.
+globe,development,Revised,"The filled latitude and longitude openings sit inside a continuous circular rim, and the outline remains symmetric."
+network,development,Reviewed,Two aligned nodes branch from the same rounded elbow to the upper node.
+webhook,development,Reviewed,Three rotated hooks have matching outer reach and maintain an even central opening.
+api,development,Reviewed,Both small plug terminals align while the short bridge stays visible between them.
+container,development,Reviewed,The two ribs keep equal widths and spacing within the front plane below the roof seam.
+package,development,Reviewed,The diagonal tape crosses the front of the folded lid without losing the crease around it.
+blocks,development,Reviewed,A two-by-two arrangement of equally sized blocks preserves both center gaps.
+binary,development,Reviewed,Both 0s retain a distinct hole and align cleanly with the matching 1s in each row.
+bold,editor,Reviewed,Both bowls remain open and maintain the shared spine through heavy outline.
+italic,editor,Reviewed,The vertical slant and even baseline caps keep the glyph recognizable at 16 px.
+underline,editor,Reviewed,The U and detached rule retain a continuous horizontal gap.
+strikethrough,editor,Reviewed,The two short S terminals stay clear of the crossbar and the letter retains its rhythm.
+heading,editor,Reviewed,The H crossbar meets matched uprights at the same height.
+heading-1,editor,Reviewed,The small one fits beside the H without crowding its right upright.
+heading-2,editor,Reviewed,The two keeps its round shoulder and horizontal foot next to the H.
+heading-3,editor,Reviewed,The small three retains distinct upper and lower bowls at 16 px.
+type,editor,Reviewed,"The large T keeps equal top shoulders and a centered, stable lower serif."
+align-left,editor,Reviewed,All row starts are flush left and the changing line lengths remain distinct.
+align-center,editor,Reviewed,Each row remains centered irrespective of its length.
+align-right,editor,Reviewed,The staggered left endpoints terminate at a shared right edge.
+align-justify,editor,Reviewed,All four rows share both endpoints and the same vertical pitch.
+list,editor,Reviewed,The round bullets repeat on the exact baseline of each matching row.
+list-ordered,editor,Reviewed,The one and two each clear the two separate right-hand rules.
+list-checks,editor,Reviewed,Repeated small checkmarks align with their rows without contacting the text ends.
+list-tree,editor,Revised,The wider equal gaps separate the two branch stubs from the text rows at heavy weight.
+indent,editor,Reviewed,The right-facing mark fits between the horizontal text lines at all three weights.
+outdent,editor,Reviewed,The left-facing mark retains the same vertical opening as indent.
+link,editor,Reviewed,The diagonal rounded links keep their center bridge legible as a join.
+link-2,editor,Reviewed,The horizontal inner bridge aligns between two open rounded link ends.
+unlink,editor,Reviewed,The broken chain halves leave an unobstructed center and two matching outward rays.
+pilcrow,editor,Reviewed,The bowl joins its left stem while the second stem stays open and clear.
+superscript,editor,Reviewed,The raised numeral stays distinct from the upper right stroke of the x.
+subscript,editor,Reviewed,The lowered numeral clears the x on the baseline side.
+highlighter,editor,Reviewed,The square nib and writing baseline meet deliberately without closing the nib seam.
+eraser,editor,Reviewed,The diagonal eraser keeps its center seam and seats against the short ground line.
+play,media,Reviewed,The triangle’s rightward optical shift offsets its heavier left edge.
+play-circle,media,Reviewed,The small play triangle stays separate from the ring and centered by visual mass.
+pause,media,Reviewed,"Both bars have equal footprints, clear interiors, and the same central gap."
+pause-circle,media,Reviewed,The two strokes retain an even center gap and open space inside the surrounding ring.
+stop,media,Reviewed,All four corners use the same radius and the square reads clearly at small size.
+stop-circle,media,Reviewed,The centered square stays distinguishable from the outside circle even at 16 px.
+record,media,Reviewed,The solid center is clearly different from the larger outline ring at all weights.
+skip-back,media,Reviewed,The stop bar stays parallel to the edge of the triangle and clear of its tip.
+skip-forward,media,Reviewed,The separation between the triangle’s tip and right stop bar matches skip-back.
+rewind,media,Revised,"Gave the two equal triangles a clearer gap, particularly in the 2.0 fill."
+fast-forward,media,Revised,Matched the new two-triangle spacing to rewind’s horizontal reflection.
+step-back,media,Reviewed,The chevron remains open and leaves space before the stop bar.
+step-forward,media,Reviewed,The right stop bar clears the open chevron by the same amount as its mirror.
+volume,media,Reviewed,"The silent cone’s shoulders center on its throat, with no marks to compete with the shape."
+volume-1,media,Revised,Pulled the cone front back and repositioned the first wave to keep the gap open near its endpoints.
+volume-2,media,Revised,"Both arcs remain concentric, with more space at the inner wave’s narrowest clearance from the cone."
+volume-x,media,Revised,Increased the clearance between the crossed mute mark and the cone.
+mic,media,Reviewed,"The capsule stays above the cradle, while the stand and horizontal foot join on center."
+mic-off,media,Reviewed,The slash gap is continuous through the capsule and cradle without changing the stand.
+headphones,media,Reviewed,Equal earcups join mirrored headband ends without pinching their interior space.
+speaker,media,Reviewed,The centered woofer remains separate from the smaller tweeter and frame.
+music,media,Reviewed,The heads attach to the outside of their stems and the beams match in slope.
+disc,media,Reviewed,The opposed groove arcs stay clear of the round center and outer rim.
+radio,media,Reviewed,The two pairs of arcs share the transmitter’s center and preserve radial spacing at heavy weights.
+podcast,media,Revised,Raised the head and lowered the base’s shoulder to leave visible separation in the filled silhouette.
+waveform,media,Reviewed,The short exterior bars and taller center bars share even horizontal pitch and a visual midline.
+captions,media,Reviewed,Four short line pieces of differing lengths stay distinct from one another and the enclosing card.
+camera,media,Reviewed,"The lens remains centered inside stepped shoulders with clean, even stroke transitions."
+camera-off,media,Reviewed,"The slash cleanly clears the lower body, lens, and top housing."
+video,media,Reviewed,The lens silhouette and curved camera body join without narrow white pockets.
+video-off,media,Reviewed,The slash leaves both the housing area and the external lens recognizable.
+image,media,Reviewed,The thumbnail keeps a visible horizon and both peaks taper before the outer top edge.
+images,media,Reviewed,The front photo retains framing and the back frame projects far enough to read as a stack.
+film,media,Reviewed,Matched sprocket openings flank the two frame rails.
+aperture,media,Reviewed,The six blades turn uniformly around a centered hexagonal opening.
+bar-chart,charts,Reviewed,Equal-width bars have aligned bases and distinct heights on even centerlines.
+bar-chart-2,charts,Revised,Lifted the common baseline to keep the bold bar bases clear of the horizontal axis.
+bar-chart-horizontal,charts,Revised,Matched the three levels’ pitch and opened the gaps at both axis edges.
+line-chart,charts,Reviewed,The ascending line leaves clear space around its left start and keeps a legible dip.
+area-chart,charts,Revised,Gave the filled polygon more clearance from the enclosing axes with a shallower baseline.
+pie-chart,charts,Reviewed,The separate sector shares the main circle’s radius and retains narrow parallel gaps.
+donut-chart,charts,Reviewed,The inner aperture stays open and the sector division holds in both treatments.
+trending-up,charts,Reviewed,The top two arrow arms meet the rising diagonal without creating a notch.
+trending-down,charts,Reviewed,The bottom-right arrow tip reflects the upward trend while preserving the line’s breaks.
+activity,charts,Reviewed,The middle rise and fall have matching extents and level tails on each side.
+gauge,charts,Revised,Shortened the needle to stop before the dial and turned the outlined pivot into a clean center hub.
+target,charts,Reviewed,The concentric rings and bullseye stay evenly centered with visible bright rings.
+crosshair,charts,Reviewed,All four ticks enter the circle at matching depths and leave the center clear.
+table,charts,Reviewed,"Three horizontal bands share equal height, with a narrower leading label column."
+funnel,charts,Reviewed,Both stage rules meet the sloping walls and retain distinct segment heights.
+percent,charts,Reviewed,The two circles mirror around the slash and leave balanced spaces in outline and fill.
+sigma,charts,Reviewed,Level upper and lower serifs share a midline at the direction change.
+calculator,charts,Reviewed,The display clears two centered rows of evenly sized keypad dots.
+scatter-chart,charts,Reviewed,Each dot remains visibly distinct from neighboring dots and the plotting axes.
+candlestick,charts,Reviewed,Each centered wick extends beyond a distinct candle body at two levels.
+shopping-cart,commerce,Revised,The basket rides above two equal wheels with visible daylight at the heavy weight.
+shopping-bag,commerce,Reviewed,The centered arch meets the bag at two even shoulders and leaves a readable handle opening.
+store,commerce,Reviewed,"The scallops keep their rhythm above a centered door, including the filled variant."
+tag,commerce,Reviewed,The inner hole stays round and clear of the clipped shoulder.
+tags,commerce,Reviewed,The offset rear edge still reads as a second tag without burying the front hole.
+ticket,commerce,Revised,Three equal interior perforations stay clear of the outer edges and matching side notches.
+barcode,commerce,Reviewed,"Five bars have equal ends and balanced gaps, including the alternating filled widths."
+gift,commerce,Reviewed,The two bow lobes remain readable above the lid and the ribbon shares their centerline.
+credit-card,commerce,Reviewed,"The stripe runs horizontally with a single short, offset account line below."
+wallet,commerce,Reviewed,The clasp extends from the side and reads separately from the folded back edge.
+banknote,commerce,Reviewed,The round center seal and two balanced dots stay clear of one another and the card edge.
+coins,commerce,Reviewed,The front coin’s digit remains lighter than its rim and the rear arc has enough room to read.
+dollar-sign,commerce,Reviewed,The crossing stroke follows the center of the S without overshooting excessively.
+euro,commerce,Reviewed,The two level bars meet the opening of the C while the right terminals remain distinct.
+pound,commerce,Reviewed,The tip of the bowl and the leftward crossbar give the symbol a distinctive silhouette.
+yen,commerce,Reviewed,The fork is centered over two evenly spaced bars with a straight vertical stem.
+receipt,commerce,Reviewed,The torn edge retains four equal slants with whitespace beneath the text rows.
+landmark,commerce,Reviewed,The roof and base align around equally spaced columns at the heaviest stroke.
+piggy-bank,commerce,Reviewed,"The coin slot is level above the eye, and the snout and ears remain legible at 16 px."
+scale,commerce,Reviewed,Both pans hang at equal heights and the centered upright aligns with the crossbeam and foot.
+briefcase,commerce,Reviewed,The handle opening survives the heavy weight and the horizontal seam reads across the body.
+truck,commerce,Revised,"The chassis stops at the tires so the outline leaves clean, open wheel wells."
+box,commerce,Reviewed,The folded tape is centered on the top edge and clears the short label.
+package-check,commerce,Reviewed,"The check has room beside the visible parcel planes, with its shorter leg readable."
+clock,time,Reviewed,The hands join at the center and the shorter arm leaves room before the rim.
+alarm-clock,time,Reviewed,Mirrored bells and feet remain readable around the clock face.
+timer,time,Reviewed,The filled wedge and outline sector use matching start and finish angles.
+stopwatch,time,Reviewed,The upper pusher lines up with the dial center and the angled lap pusher meets its radial shoulder.
+hourglass,time,Reviewed,The symmetric shoulders converge at one neck and the two sand openings read in filled.
+history,time,Revised,Joined the return arc directly to the square arrow vertex to avoid a bump at the bend.
+watch,time,Reviewed,Both straps share the same flare and the clock hands clear the bezel.
+calendar,time,Reviewed,The header rule hits both sides at the same height and both hardware pins stand clear.
+calendar-days,time,Reviewed,Five same-size date dots keep regular pitch and the intentional empty Friday slot reads cleanly.
+calendar-check,time,Reviewed,The check fits comfortably below the divider and inside the date area.
+calendar-plus,time,Reviewed,The plus uses equal-length arms centered under the header divider.
+calendar-x,time,Reviewed,The two diagonals cross cleanly at the date area’s center and are clear of the frame.
+calendar-clock,time,Reviewed,"The round clock interrupts only the lower right of the calendar, leaving the header readable."
+calendar-range,time,Reviewed,Both end caps are centered on the date-range rule and share identical height.
+sunrise,time,Reviewed,The raised arrow separates cleanly from the half sun and the supporting rays mirror.
+sunset,time,Reviewed,The downward arrow remains distinct above the sun and both rays frame it evenly.
+globe-clock,time,Reviewed,The meridian and latitude remain visible while the clock stays clear at lower right.
+bell-clock,time,Reviewed,The dome’s base and clapper leave space to read the lower-right clock.
+info,status,Reviewed,"The dot, serif and foot have enough contrast to read as lowercase i in the circular frame."
+help-circle,status,Reviewed,The question hook remains open and the dot stays clear of its lower curve.
+alert-circle,status,Reviewed,Checked the exclamation separation against the circular border at each stroke.
+alert-triangle,status,Reviewed,The stem clears the apex and the dot stays above the bottom edge.
+octagon-alert,status,Reviewed,The centered alert mark fits a perimeter with four matching beveled corners.
+ban,status,Reviewed,The slash meets the ring exactly at both shoulders and leaves equal open halves.
+slash,status,Reviewed,The endpoints are anchored symmetrically and caps stay rounded in all six variants.
+loader,status,Reviewed,The eight equiangular spokes retain a clear center at the thickest variant.
+circle-dot,status,Reviewed,"The outline dot and filled outer ring use deliberate, even separation around the center."
+circle-dashed,status,Reviewed,The gaps between arcs remain consistent and visible in the bold filled ring.
+flag,status,Reviewed,The two wave edges stay aligned along a readable pole.
+heart,status,Reviewed,The center cleft and lower point share the same vertical axis.
+heart-off,status,Reviewed,The descending slash keeps an even gap from both lobes and the surviving lower point.
+star,status,Reviewed,"All five tip lengths and valleys read clearly, and the upper point is centered."
+star-half,status,Reviewed,The center divider connects the inner notch and top point without changing the outer silhouette.
+award,status,Revised,Filled the ribbon as a single folded silhouette under a larger medal aperture.
+trophy,status,Reviewed,The matching handles join the cup while retaining their inside openings.
+crown,status,Reviewed,"The two side tips balance the center peak, with the band visible in both styles."
+gem,status,Reviewed,Mirrored facet seams open evenly between shoulders and meet at the tip.
+flame,status,Reviewed,The main lick retains its hooked tip and the inner cutout reads as a smaller flame.
+monitor,devices,Reviewed,The base stem centers on the broad display with one joined foot.
+laptop,devices,Reviewed,The screen meets the lower deck at a straight seam and the deck chamfers match.
+tablet,devices,Reviewed,The broad case and short centered control distinguish the tablet shape.
+smartphone,devices,Reviewed,The tall case and short bottom cue stay distinct from the horizontal tablet form.
+tv,devices,Reviewed,The two aerial rods meet at the top screen edge and hold matching length.
+printer,devices,Reviewed,The paper and output tray have matching side margins inside the wider housing.
+keyboard,devices,Reviewed,The staggered rows of dots clear one another and keep a centered space bar.
+mouse,devices,Reviewed,The scroll slot remains centered inside the oval shell.
+gamepad,devices,Reviewed,The paired controls balance across the wide pad and their marks clear the grip slopes.
+battery,devices,Reviewed,The peripheral terminal stays distinct from the cell outline.
+battery-low,devices,Reviewed,The single low-level segment clears the casing and anchors at the left.
+battery-medium,devices,Reviewed,The second level segment repeats the first while the terminal stays separate.
+battery-full,devices,Reviewed,The three indicators share the same cadence across the cell.
+battery-charging,devices,Revised,The open housing and opposing bolt ends now maintain more even clearance.
+wifi,devices,Reviewed,The three bands share a radius center and leave equal radial room above the dot.
+wifi-off,devices,Reviewed,The interrupted waves preserve their pitch and remain clear of the slash.
+bluetooth,devices,Reviewed,The stem and two outward triangles meet at a regular center crossing.
+signal,devices,Reviewed,The progressively taller bars align by their common baseline and equal horizontal pitch.
+cast,devices,Reviewed,The three lower-left marks remain nested with clear breaks from the screen frame.
+airplay,devices,Revised,The shortened equal stubs give the central triangle more room at the heavy weight.
+nfc,devices,Revised,The wave group now sits optically in the center of the frame with clear separation between arcs.
+usb,devices,Revised,"The branched terminals move outward to preserve a recognizable circle, square, and separate arrow."
+plug,devices,Reviewed,The prongs have matching height and the cord exits from the socket center.
+power,devices,Reviewed,The vertical stroke clears the open tips of the circular switch.
+map,maps,Reviewed,Both folds meet the side edges cleanly and repeat the same diagonal pitch.
+map-pin,maps,Reviewed,The small round aperture stays centered between the broad crown and tapered point.
+map-pin-off,maps,Reviewed,The point and upper aperture both remain recognizable under the diagonal cut.
+navigation,maps,Reviewed,The pointed kite and its concave back read separately from the broader paper-plane silhouette.
+compass,maps,Reviewed,The needle sits clear of the circular rim along the same diagonal in both treatments.
+route,maps,Reviewed,The two endpoint circles have matching size and the S-shaped link meets them at clean tangents.
+signpost,maps,Reviewed,The two signs have identical profile height and their opposing arrowheads align under rotation.
+milestone,maps,Reviewed,The single directional marker stays supported by one centered post and level foot.
+building,maps,Reviewed,Two equal window columns stay distinct above a single centered doorway.
+building-2,maps,Reviewed,The shorter wings step down symmetrically from the higher central tower.
+factory,maps,Reviewed,Each sawtooth stays legible and separated from the terminal chimney and lower windows.
+hospital,maps,Reviewed,The centered cross remains distinct from the doorway and sidewalls.
+school,maps,Reviewed,The little flag emerges from the roof peak and the door stays centered beneath it.
+warehouse,maps,Reviewed,The roof slopes mirror across the door and the two door stripes retain their spacing.
+car,maps,Reviewed,The headlights are aligned and remain clear of both the wide windshield seam and wheel stubs.
+plane,maps,Reviewed,The wings and tail reflect across the flight axis and keep visible notches at the wing roots.
+train,maps,Reviewed,"The windows and lamps balance over two mirrored rail legs, with the horizontal tie below the coach."
+ship,maps,Reviewed,Both wave lobes mirror and the bow meets their midpoint without an offset.
+bike,maps,Reviewed,The wheel hubs align and the front fork and seat tube reach intentional frame junctions.
+rocket,maps,Reviewed,The contrasting porthole and two matched fins keep the rocket recognizable at small sizes.
+sun,weather,Reviewed,The eight outward rays share a radius and retain equal clearance from the center disk.
+moon,weather,Reviewed,The two curved tips join cleanly around a plainly readable crescent.
+sun-moon,weather,Reviewed,"The small crescent stays centered among the rays, leaving the open upper-right sector clear."
+cloud-sun,weather,Revised,"Rebalanced the sun and foreground cloud, with three equal radial rays spaced around the exposed quadrant."
+cloud-rain,weather,Revised,Lowered three parallel rain strokes to keep the cloud baseline clear at the bold weight.
+cloud-snow,weather,Revised,Lowered the three snow dots and adjusted their filled diameters so they remain separate from the cloud.
+cloud-lightning,weather,Revised,"Used the same lightning path for the cutout and foreground, so its white clearance follows the bolt evenly."
+wind,weather,Reviewed,Parallel stems maintain vertical pitch while the three curls have distinct ends.
+droplet,weather,Reviewed,The shoulders meet the top tip and round bottom on the same symmetry axis.
+snowflake,weather,Reviewed,The branches preserve matching free tips and a recognizable six-armed center.
+thermometer,weather,Revised,Widened the stem around the mercury column and aligned the dot with the broader bulb.
+umbrella,weather,Reviewed,The equal canopy scallops meet the centered shaft and leave room above the curled handle.
+rainbow,weather,Reviewed,The concentric bands have equal radial gaps and meet a common baseline.
+zap,weather,Reviewed,Both corners of the directional lightning silhouette remain clear at small sizes.
+zap-off,weather,Reviewed,Both halves of the lightning retain identifiable tips with constant slash clearance.
+leaf,weather,Reviewed,The curved vein exits the basal end and keeps its pointed tip distinct.
+tree,weather,Reviewed,The two pairs of branch setbacks mirror around a centered trunk.
+waves,weather,Reviewed,All three waves have consistent pitch and phase and remain separated.
+pen,design,Reviewed,The pen clip emerges from the barrel without crowding the junction at the tapered tip.
+pencil,design,Reviewed,The eraser and point seams cross the diagonal at right angles and remain distinct.
+pen-tool,design,Reviewed,The hole in the nib and the rear cutout remain clear of the beveled nib rails.
+brush,design,Reviewed,The tapered tuft curls around a single tip and meets the handle at a clean shoulder.
+paint-bucket,design,Reviewed,"The lip, diagonal handle, liquid line, and falling droplet remain distinct."
+palette,design,Reviewed,The four paint wells follow a consistent arc above the hollow grip near the lower-right.
+pipette,design,Reviewed,The body and dispensing tip share the sloping centerline and the transverse collar seats at their join.
+swatch,design,Reviewed,The front swatch stays readable above the fanned leaves and its lower rivet is centered.
+ruler,design,Reviewed,The three notches repeat at constant pitch and a longer middle notch gives the scale hierarchy.
+wrench,design,Reviewed,The open jaw and round handle balance on the rising diagonal with clear space inside the jaw.
+hammer,design,Reviewed,The handle joins the head without a disconnected seam and the striking face stays recognizable.
+nut,design,Reviewed,The polygon sides preserve even weight around the centered bore.
+magnet,design,Reviewed,Its joined U bend and separated electrode tips remain flush and mirror-balanced.
+flashlight,design,Reviewed,The lens band and small centered switch remain distinct on the tapered housing.
+lightbulb,design,Reviewed,The shoulders curve toward a centered socket and the separate base stays centered.
+lamp,design,Reviewed,The broad shade is balanced over one vertical stem with a centered foot.
+toggle-left,design,Revised,"The circular thumb follows the track curvature with equal left, top, and bottom clearance."
+toggle-right,design,Revised,The rightward thumb mirrors the left control and keeps the same clear inset from the track.
+contrast,design,Reviewed,The circular halves meet on a centered vertical boundary and follow the same exterior curve.
+sun-dim,design,Reviewed,The eight dots stay evenly distributed around the center disc with equal separation.
+book,education,Reviewed,The bottom stroke separates a narrow page block from the broad cover and runs parallel to it.
+book-open,education,Reviewed,Both page silhouettes mirror around the central spine and the bottom valley stays centered.
+bookmark-check,education,Reviewed,The interior check clears both rails and the lower triangular notch.
+library,education,Reviewed,The angled book clears both uprights and the left book's binding seam remains readable.
+newspaper,education,Reviewed,The small back-page roll reads separately from the headline box and rule pair.
+notebook,education,Reviewed,Three evenly pitched left tabs land on the binding and the text lines clear them.
+sticky-note,education,Reviewed,The turned corner joins the outline at both ends while the rest of the sheet remains square.
+graduation-cap,education,Reviewed,The tassel descends from the same corner of the board and clears the bowl.
+scroll,education,Reviewed,The rolled sides remain traceable around the writing lines at the smallest size.
+presentation,education,Revised,The tripod post drops from the screen center to two equal feet with visible space between them.
+coffee,education,Reviewed,The three steam wisps keep equal spacing and the handle loop meets the cup cleanly.
+utensils,education,Reviewed,The three fork tines stay separate at their tips and the knife reads as one handle and blade.
+pill,education,Reviewed,The seam crosses the shared capsule axis squarely and separates the equal capsule halves.
+stethoscope,education,Reviewed,Both raised ear arms lead to the loop and the round earpiece remains distinct from the bend.
+dumbbell,education,Revised,Each plate and end cap now connects to the shaft across the midpoint without weight-dependent gaps.
+puzzle,education,Reviewed,The three protruding tabs remain distinct from the left socket even in heavy filled.
+circle,shapes,Reviewed,The outline and fill share a clean round silhouette with equal padding in both dimensions.
+square,shapes,Reviewed,Even side lengths and equal corner radii preserve the square at 16 px.
+triangle,shapes,Reviewed,The apex is centered between equal shoulders and a level base.
+diamond,shapes,Reviewed,The diagonal sides are equal with matching treatment at the four points.
+pentagon,shapes,Reviewed,The two lower corners and the sloping shoulders mirror around the upright center.
+hexagon,shapes,Reviewed,The upper and lower sides have matching lengths and the lateral vertices share a baseline.
+octagon,shapes,Reviewed,Four equal clipped corners leave the vertical and horizontal edges recognizable.
+pill-shape,shapes,Reviewed,Half-round ends meet the two level tangents with no visible kink.
+cone,shapes,Reviewed,The apex aligns with the ellipse center and the two sides join its opposite rims.
+cylinder,shapes,Reviewed,The upper ellipse reads as a continuous lid line and the lower curve closes the upright body.
+cube,shapes,Reviewed,The three seams meet at a single corner and keep the three faces distinct in the filled icon.
+sphere,shapes,Reviewed,The two arcs stay inside their rim and make a diagonal pair without touching it.
+divide,shapes,Reviewed,The top and bottom dots align over a short centered horizontal bar.
+infinity,shapes,Reviewed,The crossing retains two comparably sized loops and open counters at 16 px.
+pi,shapes,Reviewed,Both legs terminate at the same level and the curved right foot reads distinct from the stem.
+asterisk,shapes,Reviewed,The six arms reach the shared center and use equal radial spacing.
+percent-circle,shapes,Reviewed,The dots sit on opposite sides with the diagonal clear of them and the rim.
+sparkles-circle,shapes,Reviewed,The single glint has four matching points and fits comfortably inside the enclosing ring.

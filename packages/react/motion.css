@@ -1,0 +1,244 @@
+/* Animate once per interaction, or once on mount for explicit replay. */
+@media (prefers-reduced-motion: no-preference) {
+  svg[data-neon-motion] {
+    transform-origin: var(--neon-origin, center);
+    animation-duration: var(--neon-duration, 410ms);
+    animation-timing-function: var(--neon-ease, cubic-bezier(.2, .75, .3, 1));
+    animation-fill-mode: both;
+    transform-box: view-box;
+    --neon-idle: none;
+  }
+
+  :is([data-neon-trigger]:focus-visible svg[data-neon-motion], svg[data-neon-motion]:focus-visible, svg[data-neon-motion][data-neon-play]) {
+    animation-name: var(--neon-keyframes);
+    --neon-idle: initial;
+  }
+
+  @media (hover: hover) {
+    :is([data-neon-trigger]:hover svg[data-neon-motion], svg[data-neon-motion]:hover) {
+      animation-name: var(--neon-keyframes);
+      --neon-idle: initial;
+    }
+  }
+}
+
+/* Use the untouched silhouette at rest; reveal the moving layers only for the gesture. */
+@media (prefers-reduced-motion: no-preference) {
+  [data-neon-base] {
+    animation: var(--neon-idle, neon-hide-base) 680ms step-end both;
+  }
+
+  [data-neon-parts] {
+    animation: var(--neon-idle, neon-show-parts) 680ms step-end both;
+  }
+
+  [data-neon-part] {
+    transform-box: view-box;
+    animation-name: var(--neon-idle, var(--neon-part-keyframes));
+    animation-duration: 455ms;
+    animation-timing-function: cubic-bezier(.2, .7, .3, 1);
+    animation-fill-mode: both;
+  }
+}
+
+[data-neon-part="nudge-up"] { --neon-part-keyframes: neon-part-nudge; --neon-part-y: -1.3px; --neon-part-back-y: .3px; }
+[data-neon-part="nudge-down"] { --neon-part-keyframes: neon-part-nudge; --neon-part-y: 1.3px; --neon-part-back-y: -.3px; }
+[data-neon-part="nudge-left"] { --neon-part-keyframes: neon-part-nudge; --neon-part-x: -1.3px; --neon-part-back-x: .3px; }
+[data-neon-part="nudge-right"] { --neon-part-keyframes: neon-part-nudge; --neon-part-x: 1.3px; --neon-part-back-x: -.3px; }
+[data-neon-part="hinge"] { --neon-part-keyframes: neon-part-hinge; }
+[data-neon-part="shake"] { --neon-part-keyframes: neon-part-shake; }
+[data-neon-part="spark"] { --neon-part-keyframes: neon-part-spark; }
+[data-neon-part="beat"] { --neon-part-keyframes: neon-part-beat; }
+[data-neon-part="swing"] { --neon-part-keyframes: neon-part-swing; }
+[data-neon-part="orbit"] { --neon-part-keyframes: neon-part-orbit; }
+[data-neon-part="draw"] { --neon-part-keyframes: neon-part-draw; }
+[data-neon-part="scan"] { --neon-part-keyframes: neon-part-scan; }
+[data-neon-part="spin"] { --neon-part-keyframes: neon-part-spin; }
+[data-neon-part="meter"] { --neon-part-keyframes: neon-part-meter; }
+
+@keyframes neon-hide-base {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes neon-show-parts {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+@keyframes neon-part-nudge {
+  16%, 74% { translate: var(--neon-part-back-x, 0) var(--neon-part-back-y, 0); }
+  47% { translate: var(--neon-part-x, 0) var(--neon-part-y, 0); }
+}
+@keyframes neon-part-hinge {
+  43% { rotate: -20deg; translate: 0 -.7px; }
+  76% { rotate: 4deg; }
+}
+@keyframes neon-part-shake {
+  24%, 63% { translate: -.8px 0; }
+  43% { translate: .85px 0; }
+  81% { translate: .25px 0; }
+}
+@keyframes neon-part-spark {
+  16% { scale: .79; opacity: .75; }
+  49% { scale: 1.23; rotate: 12deg; }
+  75% { scale: .98; rotate: -3deg; }
+}
+@keyframes neon-part-beat {
+  32% { scale: 1.19; }
+  72% { scale: .94; }
+}
+@keyframes neon-part-swing {
+  24% { rotate: 24deg; translate: .7px 0; }
+  53% { rotate: -15deg; translate: -.6px 0; }
+  80% { rotate: 6deg; }
+}
+@keyframes neon-part-orbit {
+  30% { translate: .8px -.8px; }
+  56% { translate: -.2px -1px; }
+  78% { translate: -.65px -.35px; }
+}
+@keyframes neon-part-draw {
+  20% { scale: .65 1; opacity: .47; }
+  62% { scale: 1.06 1; }
+}
+@keyframes neon-part-scan {
+  25% { translate: 0 -.7px; opacity: .6; }
+  57% { translate: 0 .6px; }
+}
+@keyframes neon-part-spin { to { rotate: 360deg; } }
+@keyframes neon-part-meter {
+  18% { scale: 1 .7; }
+  53% { scale: 1 1.15; }
+  77% { scale: 1 .97; }
+}
+
+[data-neon-motion="up"] { --neon-keyframes: neon-travel; --neon-y: -11%; --neon-back-y: 2%; }
+[data-neon-motion="down"] { --neon-keyframes: neon-travel; --neon-y: 11%; --neon-back-y: -2%; }
+[data-neon-motion="left"] { --neon-keyframes: neon-travel; --neon-x: -11%; --neon-back-x: 2%; }
+[data-neon-motion="right"] { --neon-keyframes: neon-travel; --neon-x: 11%; --neon-back-x: -2%; }
+[data-neon-motion="up-left"] { --neon-keyframes: neon-travel; --neon-x: -8%; --neon-y: -8%; }
+[data-neon-motion="up-right"] { --neon-keyframes: neon-travel; --neon-x: 8%; --neon-y: -8%; }
+[data-neon-motion="down-left"] { --neon-keyframes: neon-travel; --neon-x: -8%; --neon-y: 8%; }
+[data-neon-motion="down-right"] { --neon-keyframes: neon-travel; --neon-x: 8%; --neon-y: 8%; }
+[data-neon-motion="turn"] { --neon-keyframes: neon-turn; --neon-angle: 18deg; --neon-return: -4deg; }
+[data-neon-motion="turn-back"] { --neon-keyframes: neon-turn; --neon-angle: -18deg; --neon-return: 4deg; }
+[data-neon-motion="spin"] { --neon-keyframes: neon-spin; --neon-angle: 360deg; --neon-duration: 650ms; }
+[data-neon-motion="spin-back"] { --neon-keyframes: neon-spin; --neon-angle: -360deg; --neon-duration: 650ms; }
+[data-neon-motion="ring"] { --neon-keyframes: neon-ring; --neon-duration: 530ms; --neon-origin: 50% 22%; }
+[data-neon-motion="wiggle"] { --neon-keyframes: neon-wiggle; }
+[data-neon-motion="nod"] { --neon-keyframes: neon-nod; }
+[data-neon-motion="pop"] { --neon-keyframes: neon-pop; }
+[data-neon-motion="press"] { --neon-keyframes: neon-press; --neon-duration: 330ms; }
+[data-neon-motion="lift"] { --neon-keyframes: neon-lift; --neon-lift: -10%; }
+[data-neon-motion="drop"] { --neon-keyframes: neon-lift; --neon-lift: 10%; }
+[data-neon-motion="stretch-x"] { --neon-keyframes: neon-stretch; --neon-scale: 1.14 .94; }
+[data-neon-motion="stretch-y"] { --neon-keyframes: neon-stretch; --neon-scale: .94 1.14; }
+[data-neon-motion="fold"] { --neon-keyframes: neon-fold; }
+[data-neon-motion="focus"] { --neon-keyframes: neon-focus; }
+[data-neon-motion="inspect"] { --neon-keyframes: neon-inspect; --neon-origin: 74% 74%; --neon-duration: 560ms; }
+[data-neon-motion="pulse"] { --neon-keyframes: neon-pulse; --neon-duration: 520ms; }
+[data-neon-motion="ping"] { --neon-keyframes: neon-ping; --neon-duration: 510ms; }
+[data-neon-motion="scan"] { --neon-keyframes: neon-scan; --neon-duration: 460ms; }
+[data-neon-motion="draw"] { --neon-keyframes: neon-draw; --neon-duration: 460ms; --neon-ease: ease-out; }
+[data-neon-motion="double"] { --neon-keyframes: neon-double; --neon-duration: 510ms; }
+[data-neon-motion="orbit"] { --neon-keyframes: neon-orbit; --neon-duration: 560ms; }
+[data-neon-motion="bounce"] { --neon-keyframes: neon-bounce; --neon-duration: 510ms; }
+[data-neon-motion="blink"] { --neon-keyframes: neon-blink; --neon-duration: 350ms; }
+[data-neon-motion="sway"] { --neon-keyframes: neon-sway; --neon-duration: 490ms; }
+
+@keyframes neon-travel {
+  15% { translate: var(--neon-back-x, 0%) var(--neon-back-y, 0%); }
+  45% { translate: var(--neon-x, 0%) var(--neon-y, 0%); }
+  73% { translate: var(--neon-back-x, 0%) var(--neon-back-y, 0%); }
+}
+@keyframes neon-turn {
+  16% { rotate: var(--neon-return); }
+  45% { rotate: var(--neon-angle); }
+  74% { rotate: var(--neon-return); }
+}
+@keyframes neon-spin { to { rotate: var(--neon-angle); } }
+@keyframes neon-ring {
+  20% { rotate: 14deg; }
+  42% { rotate: -11deg; }
+  62% { rotate: 7deg; }
+  80% { rotate: -3deg; }
+}
+@keyframes neon-wiggle {
+  22%, 62% { translate: -6% 0; }
+  42%, 80% { translate: 6% 0; }
+}
+@keyframes neon-nod {
+  40% { translate: 0 6%; rotate: 7deg; scale: 1 .93; }
+  74% { rotate: -2deg; }
+}
+@keyframes neon-pop {
+  18% { scale: .94; }
+  49% { scale: 1.16; }
+  79% { scale: .99; }
+}
+@keyframes neon-press {
+  35% { scale: .86; }
+  75% { scale: 1.03; }
+}
+@keyframes neon-lift {
+  14% { scale: 1.04 .96; }
+  47% { translate: 0 var(--neon-lift); scale: .99 1.06; }
+  77% { scale: 1.025 .98; }
+}
+@keyframes neon-stretch {
+  42% { scale: var(--neon-scale); }
+}
+@keyframes neon-fold {
+  38% { scale: .82 1.03; rotate: -5deg; }
+  68% { scale: 1.05 .97; rotate: 2deg; }
+}
+@keyframes neon-focus {
+  37% { scale: 1.11; }
+  76% { scale: .99; }
+}
+@keyframes neon-inspect {
+  18% { rotate: 6deg; }
+  43% { rotate: -16deg; translate: -4% -2%; scale: 1.08; }
+  69% { rotate: -8deg; translate: 1% -4%; scale: 1.06; }
+  87% { rotate: 3deg; }
+}
+@keyframes neon-pulse {
+  27% { scale: 1.14; }
+  64% { scale: 1.02; }
+  80% { scale: 1.06; }
+}
+@keyframes neon-ping {
+  22% { scale: .9; opacity: .72; }
+  55% { scale: 1.18; rotate: 8deg; }
+  79% { scale: .99; }
+}
+@keyframes neon-scan {
+  18% { translate: 0 -4%; opacity: .82; }
+  45% { translate: 0 4%; scale: 1.045; opacity: .92; }
+  76% { translate: 0 -1%; opacity: 1; }
+}
+@keyframes neon-draw {
+  0% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+  16% { clip-path: polygon(0 0, 12% 0, 30% 100%, 0 100%); opacity: .55; }
+  54% { clip-path: polygon(0 0, 72% 0, 90% 100%, 0 100%); opacity: 1; }
+  80%, 100% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+}
+@keyframes neon-double {
+  29% { translate: -5% -7%; scale: 1.08; }
+  61% { translate: 4% 1%; scale: 1.03; }
+}
+@keyframes neon-orbit {
+  25% { translate: 5% -5%; rotate: 10deg; }
+  55% { translate: -3% -4%; rotate: 2deg; }
+  78% { translate: -4% 0; rotate: -4deg; }
+}
+@keyframes neon-bounce {
+  18% { scale: 1.08 .91; }
+  46% { translate: 0 -12%; scale: .96 1.08; }
+  76% { scale: 1.05 .96; }
+}
+@keyframes neon-blink { 41% { scale: 1 .76; opacity: .78; } }
+@keyframes neon-sway {
+  29% { rotate: -11deg; }
+  62% { rotate: 7deg; }
+  84% { rotate: -2deg; }
+}

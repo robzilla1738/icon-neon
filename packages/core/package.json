@@ -1,0 +1,20 @@
+{
+  "name": "@neon-icons/core",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build:icons": "tsx src/build.ts",
+    "verify": "tsx src/verify.ts",
+    "sheets": "tsx src/render-sheets.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "pathkit-wasm": "^1.0.0",
+    "svgo": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0"
+  }
+}

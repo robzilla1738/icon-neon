@@ -1,0 +1,6020 @@
+import type { IconMeta, CategoryMeta } from '../types.js'
+
+export const CATEGORIES: readonly CategoryMeta[] = [
+  {
+    "id": "arrows",
+    "label": "Arrows & Navigation",
+    "count": 47
+  },
+  {
+    "id": "interface",
+    "label": "Interface & Actions",
+    "count": 46
+  },
+  {
+    "id": "layout",
+    "label": "Layout & Windows",
+    "count": 28
+  },
+  {
+    "id": "files",
+    "label": "Files & Folders",
+    "count": 28
+  },
+  {
+    "id": "communication",
+    "label": "Communication",
+    "count": 30
+  },
+  {
+    "id": "users",
+    "label": "Users & People",
+    "count": 20
+  },
+  {
+    "id": "security",
+    "label": "Security & Privacy",
+    "count": 20
+  },
+  {
+    "id": "ai",
+    "label": "AI & Intelligence",
+    "count": 20
+  },
+  {
+    "id": "development",
+    "label": "Development & Code",
+    "count": 31
+  },
+  {
+    "id": "editor",
+    "label": "Text & Editor",
+    "count": 27
+  },
+  {
+    "id": "media",
+    "label": "Media & Camera",
+    "count": 35
+  },
+  {
+    "id": "charts",
+    "label": "Charts & Data",
+    "count": 20
+  },
+  {
+    "id": "commerce",
+    "label": "Commerce & Finance",
+    "count": 24
+  },
+  {
+    "id": "time",
+    "label": "Time & Calendar",
+    "count": 18
+  },
+  {
+    "id": "status",
+    "label": "Status & Feedback",
+    "count": 20
+  },
+  {
+    "id": "devices",
+    "label": "Devices & Hardware",
+    "count": 24
+  },
+  {
+    "id": "maps",
+    "label": "Maps & Travel",
+    "count": 20
+  },
+  {
+    "id": "weather",
+    "label": "Weather & Nature",
+    "count": 18
+  },
+  {
+    "id": "design",
+    "label": "Design & Tools",
+    "count": 20
+  },
+  {
+    "id": "education",
+    "label": "Knowledge & Life",
+    "count": 16
+  },
+  {
+    "id": "shapes",
+    "label": "Shapes & Math",
+    "count": 18
+  }
+]
+
+export const ICON_MANIFEST: readonly IconMeta[] = [
+  {
+    "name": "arrow-up",
+    "pascalName": "ArrowUpIcon",
+    "category": "arrows",
+    "tags": [
+      "north",
+      "direction",
+      "top",
+      "upload"
+    ]
+  },
+  {
+    "name": "arrow-down",
+    "pascalName": "ArrowDownIcon",
+    "category": "arrows",
+    "tags": [
+      "south",
+      "direction",
+      "bottom",
+      "download"
+    ]
+  },
+  {
+    "name": "arrow-left",
+    "pascalName": "ArrowLeftIcon",
+    "category": "arrows",
+    "tags": [
+      "west",
+      "back",
+      "previous",
+      "direction"
+    ]
+  },
+  {
+    "name": "arrow-right",
+    "pascalName": "ArrowRightIcon",
+    "category": "arrows",
+    "tags": [
+      "east",
+      "forward",
+      "next",
+      "direction"
+    ]
+  },
+  {
+    "name": "arrow-up-left",
+    "pascalName": "ArrowUpLeftIcon",
+    "category": "arrows",
+    "tags": [
+      "northwest",
+      "diagonal",
+      "direction"
+    ]
+  },
+  {
+    "name": "arrow-up-right",
+    "pascalName": "ArrowUpRightIcon",
+    "category": "arrows",
+    "tags": [
+      "northeast",
+      "diagonal",
+      "external",
+      "link"
+    ]
+  },
+  {
+    "name": "arrow-down-left",
+    "pascalName": "ArrowDownLeftIcon",
+    "category": "arrows",
+    "tags": [
+      "southwest",
+      "diagonal",
+      "direction"
+    ]
+  },
+  {
+    "name": "arrow-down-right",
+    "pascalName": "ArrowDownRightIcon",
+    "category": "arrows",
+    "tags": [
+      "southeast",
+      "diagonal",
+      "direction"
+    ]
+  },
+  {
+    "name": "arrow-up-down",
+    "pascalName": "ArrowUpDownIcon",
+    "category": "arrows",
+    "tags": [
+      "sort",
+      "swap",
+      "vertical",
+      "reorder"
+    ]
+  },
+  {
+    "name": "arrow-left-right",
+    "pascalName": "ArrowLeftRightIcon",
+    "category": "arrows",
+    "tags": [
+      "swap",
+      "exchange",
+      "horizontal",
+      "transfer"
+    ]
+  },
+  {
+    "name": "arrows-expand",
+    "pascalName": "ArrowsExpandIcon",
+    "category": "arrows",
+    "tags": [
+      "enlarge",
+      "scale",
+      "diagonal",
+      "resize"
+    ]
+  },
+  {
+    "name": "arrows-collapse",
+    "pascalName": "ArrowsCollapseIcon",
+    "category": "arrows",
+    "tags": [
+      "shrink",
+      "compress",
+      "diagonal",
+      "resize"
+    ]
+  },
+  {
+    "name": "arrow-up-circle",
+    "pascalName": "ArrowUpCircleIcon",
+    "category": "arrows",
+    "tags": [
+      "top",
+      "upload",
+      "round",
+      "direction"
+    ]
+  },
+  {
+    "name": "arrow-down-circle",
+    "pascalName": "ArrowDownCircleIcon",
+    "category": "arrows",
+    "tags": [
+      "bottom",
+      "download",
+      "round",
+      "direction"
+    ]
+  },
+  {
+    "name": "arrow-left-circle",
+    "pascalName": "ArrowLeftCircleIcon",
+    "category": "arrows",
+    "tags": [
+      "back",
+      "previous",
+      "round",
+      "direction"
+    ]
+  },
+  {
+    "name": "arrow-right-circle",
+    "pascalName": "ArrowRightCircleIcon",
+    "category": "arrows",
+    "tags": [
+      "next",
+      "forward",
+      "round",
+      "direction"
+    ]
+  },
+  {
+    "name": "chevron-up",
+    "pascalName": "ChevronUpIcon",
+    "category": "arrows",
+    "tags": [
+      "collapse",
+      "up",
+      "accordion",
+      "caret"
+    ]
+  },
+  {
+    "name": "chevron-down",
+    "pascalName": "ChevronDownIcon",
+    "category": "arrows",
+    "tags": [
+      "expand",
+      "down",
+      "dropdown",
+      "select"
+    ]
+  },
+  {
+    "name": "chevron-left",
+    "pascalName": "ChevronLeftIcon",
+    "category": "arrows",
+    "tags": [
+      "back",
+      "previous",
+      "left",
+      "navigate"
+    ]
+  },
+  {
+    "name": "chevron-right",
+    "pascalName": "ChevronRightIcon",
+    "category": "arrows",
+    "tags": [
+      "next",
+      "forward",
+      "right",
+      "breadcrumb"
+    ]
+  },
+  {
+    "name": "chevrons-up",
+    "pascalName": "ChevronsUpIcon",
+    "category": "arrows",
+    "tags": [
+      "top",
+      "fast",
+      "collapse-all"
+    ]
+  },
+  {
+    "name": "chevrons-down",
+    "pascalName": "ChevronsDownIcon",
+    "category": "arrows",
+    "tags": [
+      "bottom",
+      "fast",
+      "expand-all"
+    ]
+  },
+  {
+    "name": "chevrons-left",
+    "pascalName": "ChevronsLeftIcon",
+    "category": "arrows",
+    "tags": [
+      "first",
+      "rewind",
+      "collapse-sidebar"
+    ]
+  },
+  {
+    "name": "chevrons-right",
+    "pascalName": "ChevronsRightIcon",
+    "category": "arrows",
+    "tags": [
+      "last",
+      "fast-forward",
+      "expand-sidebar"
+    ]
+  },
+  {
+    "name": "chevrons-up-down",
+    "pascalName": "ChevronsUpDownIcon",
+    "category": "arrows",
+    "tags": [
+      "select",
+      "combobox",
+      "picker",
+      "sort"
+    ]
+  },
+  {
+    "name": "caret-up",
+    "pascalName": "CaretUpIcon",
+    "category": "arrows",
+    "tags": [
+      "triangle",
+      "sort-asc",
+      "up",
+      "dropdown"
+    ]
+  },
+  {
+    "name": "caret-down",
+    "pascalName": "CaretDownIcon",
+    "category": "arrows",
+    "tags": [
+      "triangle",
+      "sort-desc",
+      "down",
+      "dropdown"
+    ]
+  },
+  {
+    "name": "caret-left",
+    "pascalName": "CaretLeftIcon",
+    "category": "arrows",
+    "tags": [
+      "triangle",
+      "left",
+      "previous"
+    ]
+  },
+  {
+    "name": "caret-right",
+    "pascalName": "CaretRightIcon",
+    "category": "arrows",
+    "tags": [
+      "triangle",
+      "right",
+      "next"
+    ]
+  },
+  {
+    "name": "corner-down-left",
+    "pascalName": "CornerDownLeftIcon",
+    "category": "arrows",
+    "tags": [
+      "enter",
+      "return",
+      "reply",
+      "newline"
+    ]
+  },
+  {
+    "name": "corner-down-right",
+    "pascalName": "CornerDownRightIcon",
+    "category": "arrows",
+    "tags": [
+      "indent",
+      "subtask",
+      "reply",
+      "child"
+    ]
+  },
+  {
+    "name": "corner-up-left",
+    "pascalName": "CornerUpLeftIcon",
+    "category": "arrows",
+    "tags": [
+      "parent",
+      "directory",
+      "back",
+      "return"
+    ]
+  },
+  {
+    "name": "corner-up-right",
+    "pascalName": "CornerUpRightIcon",
+    "category": "arrows",
+    "tags": [
+      "forward",
+      "branch",
+      "share",
+      "redirect"
+    ]
+  },
+  {
+    "name": "undo",
+    "pascalName": "UndoIcon",
+    "category": "arrows",
+    "tags": [
+      "revert",
+      "back",
+      "history",
+      "ctrl-z"
+    ]
+  },
+  {
+    "name": "redo",
+    "pascalName": "RedoIcon",
+    "category": "arrows",
+    "tags": [
+      "forward",
+      "repeat",
+      "history",
+      "ctrl-y"
+    ]
+  },
+  {
+    "name": "refresh-cw",
+    "pascalName": "RefreshCwIcon",
+    "category": "arrows",
+    "tags": [
+      "sync",
+      "reload",
+      "update",
+      "cycle"
+    ]
+  },
+  {
+    "name": "refresh-ccw",
+    "pascalName": "RefreshCcwIcon",
+    "category": "arrows",
+    "tags": [
+      "sync",
+      "reload",
+      "reset",
+      "counterclockwise"
+    ]
+  },
+  {
+    "name": "rotate-cw",
+    "pascalName": "RotateCwIcon",
+    "category": "arrows",
+    "tags": [
+      "turn",
+      "clockwise",
+      "spin",
+      "reload"
+    ]
+  },
+  {
+    "name": "rotate-ccw",
+    "pascalName": "RotateCcwIcon",
+    "category": "arrows",
+    "tags": [
+      "turn",
+      "counterclockwise",
+      "reset",
+      "undo"
+    ]
+  },
+  {
+    "name": "repeat",
+    "pascalName": "RepeatIcon",
+    "category": "arrows",
+    "tags": [
+      "loop",
+      "cycle",
+      "replay",
+      "media"
+    ]
+  },
+  {
+    "name": "shuffle",
+    "pascalName": "ShuffleIcon",
+    "category": "arrows",
+    "tags": [
+      "random",
+      "mix",
+      "cross",
+      "media"
+    ]
+  },
+  {
+    "name": "external-link",
+    "pascalName": "ExternalLinkIcon",
+    "category": "arrows",
+    "tags": [
+      "open",
+      "new-tab",
+      "launch",
+      "outbound"
+    ]
+  },
+  {
+    "name": "log-in",
+    "pascalName": "LogInIcon",
+    "category": "arrows",
+    "tags": [
+      "sign-in",
+      "enter",
+      "auth",
+      "portal"
+    ]
+  },
+  {
+    "name": "log-out",
+    "pascalName": "LogOutIcon",
+    "category": "arrows",
+    "tags": [
+      "sign-out",
+      "exit",
+      "leave",
+      "auth"
+    ]
+  },
+  {
+    "name": "move",
+    "pascalName": "MoveIcon",
+    "category": "arrows",
+    "tags": [
+      "drag",
+      "pan",
+      "reposition",
+      "4-way"
+    ]
+  },
+  {
+    "name": "maximize",
+    "pascalName": "MaximizeIcon",
+    "category": "arrows",
+    "tags": [
+      "expand",
+      "corners",
+      "viewport",
+      "zoom"
+    ]
+  },
+  {
+    "name": "minimize",
+    "pascalName": "MinimizeIcon",
+    "category": "arrows",
+    "tags": [
+      "shrink",
+      "corners",
+      "collapse",
+      "restore"
+    ]
+  },
+  {
+    "name": "home",
+    "pascalName": "HomeIcon",
+    "category": "interface",
+    "tags": [
+      "house",
+      "main",
+      "start",
+      "dashboard",
+      "index"
+    ]
+  },
+  {
+    "name": "search",
+    "pascalName": "SearchIcon",
+    "category": "interface",
+    "tags": [
+      "find",
+      "lookup",
+      "magnifier",
+      "query",
+      "lens"
+    ]
+  },
+  {
+    "name": "zoom-in",
+    "pascalName": "ZoomInIcon",
+    "category": "interface",
+    "tags": [
+      "magnify",
+      "enlarge",
+      "search",
+      "plus"
+    ]
+  },
+  {
+    "name": "zoom-out",
+    "pascalName": "ZoomOutIcon",
+    "category": "interface",
+    "tags": [
+      "shrink",
+      "reduce",
+      "search",
+      "minus"
+    ]
+  },
+  {
+    "name": "menu",
+    "pascalName": "MenuIcon",
+    "category": "interface",
+    "tags": [
+      "hamburger",
+      "navigation",
+      "bars",
+      "drawer"
+    ]
+  },
+  {
+    "name": "more-horizontal",
+    "pascalName": "MoreHorizontalIcon",
+    "category": "interface",
+    "tags": [
+      "ellipsis",
+      "dots",
+      "options",
+      "overflow"
+    ]
+  },
+  {
+    "name": "more-vertical",
+    "pascalName": "MoreVerticalIcon",
+    "category": "interface",
+    "tags": [
+      "kebab",
+      "dots",
+      "options",
+      "overflow"
+    ]
+  },
+  {
+    "name": "plus",
+    "pascalName": "PlusIcon",
+    "category": "interface",
+    "tags": [
+      "add",
+      "new",
+      "create",
+      "positive"
+    ]
+  },
+  {
+    "name": "minus",
+    "pascalName": "MinusIcon",
+    "category": "interface",
+    "tags": [
+      "subtract",
+      "remove",
+      "dash",
+      "collapse"
+    ]
+  },
+  {
+    "name": "x",
+    "pascalName": "XIcon",
+    "category": "interface",
+    "tags": [
+      "close",
+      "cancel",
+      "dismiss",
+      "delete",
+      "multiply"
+    ]
+  },
+  {
+    "name": "check",
+    "pascalName": "CheckIcon",
+    "category": "interface",
+    "tags": [
+      "done",
+      "ok",
+      "confirm",
+      "tick",
+      "selected"
+    ]
+  },
+  {
+    "name": "check-double",
+    "pascalName": "CheckDoubleIcon",
+    "category": "interface",
+    "tags": [
+      "read",
+      "seen",
+      "verified",
+      "all-done"
+    ]
+  },
+  {
+    "name": "equal",
+    "pascalName": "EqualIcon",
+    "category": "interface",
+    "tags": [
+      "same",
+      "equals",
+      "math",
+      "balance"
+    ]
+  },
+  {
+    "name": "plus-circle",
+    "pascalName": "PlusCircleIcon",
+    "category": "interface",
+    "tags": [
+      "add",
+      "create",
+      "insert",
+      "new"
+    ]
+  },
+  {
+    "name": "minus-circle",
+    "pascalName": "MinusCircleIcon",
+    "category": "interface",
+    "tags": [
+      "remove",
+      "subtract",
+      "disable"
+    ]
+  },
+  {
+    "name": "x-circle",
+    "pascalName": "XCircleIcon",
+    "category": "interface",
+    "tags": [
+      "close",
+      "error",
+      "clear",
+      "cancel",
+      "fail"
+    ]
+  },
+  {
+    "name": "check-circle",
+    "pascalName": "CheckCircleIcon",
+    "category": "interface",
+    "tags": [
+      "success",
+      "complete",
+      "done",
+      "valid"
+    ]
+  },
+  {
+    "name": "plus-square",
+    "pascalName": "PlusSquareIcon",
+    "category": "interface",
+    "tags": [
+      "add",
+      "box",
+      "new",
+      "create"
+    ]
+  },
+  {
+    "name": "check-square",
+    "pascalName": "CheckSquareIcon",
+    "category": "interface",
+    "tags": [
+      "checkbox",
+      "checked",
+      "done",
+      "todo"
+    ]
+  },
+  {
+    "name": "x-square",
+    "pascalName": "XSquareIcon",
+    "category": "interface",
+    "tags": [
+      "close",
+      "box",
+      "cancel",
+      "remove"
+    ]
+  },
+  {
+    "name": "settings",
+    "pascalName": "SettingsIcon",
+    "category": "interface",
+    "tags": [
+      "cog",
+      "gear",
+      "preferences",
+      "config",
+      "options"
+    ]
+  },
+  {
+    "name": "sliders",
+    "pascalName": "SlidersIcon",
+    "category": "interface",
+    "tags": [
+      "adjust",
+      "controls",
+      "tune",
+      "preferences",
+      "equalizer"
+    ]
+  },
+  {
+    "name": "sliders-vertical",
+    "pascalName": "SlidersVerticalIcon",
+    "category": "interface",
+    "tags": [
+      "mixer",
+      "audio",
+      "adjust",
+      "faders"
+    ]
+  },
+  {
+    "name": "filter",
+    "pascalName": "FilterIcon",
+    "category": "interface",
+    "tags": [
+      "funnel",
+      "refine",
+      "query",
+      "sort"
+    ]
+  },
+  {
+    "name": "sort-asc",
+    "pascalName": "SortAscIcon",
+    "category": "interface",
+    "tags": [
+      "order",
+      "ascending",
+      "list",
+      "rank"
+    ]
+  },
+  {
+    "name": "sort-desc",
+    "pascalName": "SortDescIcon",
+    "category": "interface",
+    "tags": [
+      "order",
+      "descending",
+      "list",
+      "rank"
+    ]
+  },
+  {
+    "name": "edit",
+    "pascalName": "EditIcon",
+    "category": "interface",
+    "tags": [
+      "pencil",
+      "write",
+      "modify",
+      "rename"
+    ]
+  },
+  {
+    "name": "edit-square",
+    "pascalName": "EditSquareIcon",
+    "category": "interface",
+    "tags": [
+      "compose",
+      "write",
+      "draft",
+      "modify"
+    ]
+  },
+  {
+    "name": "trash",
+    "pascalName": "TrashIcon",
+    "category": "interface",
+    "tags": [
+      "delete",
+      "remove",
+      "bin",
+      "discard",
+      "garbage"
+    ]
+  },
+  {
+    "name": "copy",
+    "pascalName": "CopyIcon",
+    "category": "interface",
+    "tags": [
+      "duplicate",
+      "clone",
+      "clipboard"
+    ]
+  },
+  {
+    "name": "clipboard",
+    "pascalName": "ClipboardIcon",
+    "category": "interface",
+    "tags": [
+      "paste",
+      "board",
+      "notes",
+      "copy"
+    ]
+  },
+  {
+    "name": "clipboard-check",
+    "pascalName": "ClipboardCheckIcon",
+    "category": "interface",
+    "tags": [
+      "copied",
+      "done",
+      "verified",
+      "paste"
+    ]
+  },
+  {
+    "name": "scissors",
+    "pascalName": "ScissorsIcon",
+    "category": "interface",
+    "tags": [
+      "cut",
+      "trim",
+      "snip",
+      "clip"
+    ]
+  },
+  {
+    "name": "download",
+    "pascalName": "DownloadIcon",
+    "category": "interface",
+    "tags": [
+      "save",
+      "export",
+      "import",
+      "tray"
+    ]
+  },
+  {
+    "name": "upload",
+    "pascalName": "UploadIcon",
+    "category": "interface",
+    "tags": [
+      "publish",
+      "import",
+      "send",
+      "tray"
+    ]
+  },
+  {
+    "name": "share",
+    "pascalName": "ShareIcon",
+    "category": "interface",
+    "tags": [
+      "export",
+      "ios",
+      "send",
+      "publish"
+    ]
+  },
+  {
+    "name": "share-2",
+    "pascalName": "Share2Icon",
+    "category": "interface",
+    "tags": [
+      "network",
+      "nodes",
+      "distribute",
+      "social"
+    ]
+  },
+  {
+    "name": "save",
+    "pascalName": "SaveIcon",
+    "category": "interface",
+    "tags": [
+      "disk",
+      "floppy",
+      "store",
+      "persist"
+    ]
+  },
+  {
+    "name": "bookmark",
+    "pascalName": "BookmarkIcon",
+    "category": "interface",
+    "tags": [
+      "save",
+      "favorite",
+      "ribbon",
+      "mark"
+    ]
+  },
+  {
+    "name": "pin",
+    "pascalName": "PinIcon",
+    "category": "interface",
+    "tags": [
+      "thumbtack",
+      "stick",
+      "attach",
+      "fix"
+    ]
+  },
+  {
+    "name": "pin-off",
+    "pascalName": "PinOffIcon",
+    "category": "interface",
+    "tags": [
+      "unpin",
+      "detach",
+      "remove"
+    ]
+  },
+  {
+    "name": "eye",
+    "pascalName": "EyeIcon",
+    "category": "interface",
+    "tags": [
+      "view",
+      "show",
+      "visible",
+      "preview",
+      "watch"
+    ]
+  },
+  {
+    "name": "eye-off",
+    "pascalName": "EyeOffIcon",
+    "category": "interface",
+    "tags": [
+      "hide",
+      "invisible",
+      "private",
+      "password"
+    ]
+  },
+  {
+    "name": "grip-vertical",
+    "pascalName": "GripVerticalIcon",
+    "category": "interface",
+    "tags": [
+      "drag",
+      "handle",
+      "reorder",
+      "dots"
+    ]
+  },
+  {
+    "name": "grip-horizontal",
+    "pascalName": "GripHorizontalIcon",
+    "category": "interface",
+    "tags": [
+      "drag",
+      "handle",
+      "reorder",
+      "dots"
+    ]
+  },
+  {
+    "name": "command",
+    "pascalName": "CommandIcon",
+    "category": "interface",
+    "tags": [
+      "cmd",
+      "shortcut",
+      "mac",
+      "key",
+      "palette"
+    ]
+  },
+  {
+    "name": "sidebar-left",
+    "pascalName": "SidebarLeftIcon",
+    "category": "layout",
+    "tags": [
+      "panel",
+      "drawer",
+      "navigation",
+      "dock"
+    ]
+  },
+  {
+    "name": "sidebar-right",
+    "pascalName": "SidebarRightIcon",
+    "category": "layout",
+    "tags": [
+      "panel",
+      "inspector",
+      "drawer",
+      "dock"
+    ]
+  },
+  {
+    "name": "panel-top",
+    "pascalName": "PanelTopIcon",
+    "category": "layout",
+    "tags": [
+      "header",
+      "toolbar",
+      "topbar",
+      "window"
+    ]
+  },
+  {
+    "name": "panel-bottom",
+    "pascalName": "PanelBottomIcon",
+    "category": "layout",
+    "tags": [
+      "footer",
+      "tray",
+      "console",
+      "dock"
+    ]
+  },
+  {
+    "name": "panel-left-close",
+    "pascalName": "PanelLeftCloseIcon",
+    "category": "layout",
+    "tags": [
+      "collapse",
+      "sidebar",
+      "hide",
+      "drawer"
+    ]
+  },
+  {
+    "name": "panel-left-open",
+    "pascalName": "PanelLeftOpenIcon",
+    "category": "layout",
+    "tags": [
+      "expand",
+      "sidebar",
+      "show",
+      "drawer"
+    ]
+  },
+  {
+    "name": "layout-grid",
+    "pascalName": "LayoutGridIcon",
+    "category": "layout",
+    "tags": [
+      "apps",
+      "tiles",
+      "blocks",
+      "gallery"
+    ]
+  },
+  {
+    "name": "layout-list",
+    "pascalName": "LayoutListIcon",
+    "category": "layout",
+    "tags": [
+      "rows",
+      "items",
+      "feed",
+      "view"
+    ]
+  },
+  {
+    "name": "layout-dashboard",
+    "pascalName": "LayoutDashboardIcon",
+    "category": "layout",
+    "tags": [
+      "bento",
+      "widgets",
+      "overview",
+      "home"
+    ]
+  },
+  {
+    "name": "layout-columns",
+    "pascalName": "LayoutColumnsIcon",
+    "category": "layout",
+    "tags": [
+      "split",
+      "two-column",
+      "grid"
+    ]
+  },
+  {
+    "name": "layout-rows",
+    "pascalName": "LayoutRowsIcon",
+    "category": "layout",
+    "tags": [
+      "split",
+      "two-row",
+      "stack"
+    ]
+  },
+  {
+    "name": "layout-kanban",
+    "pascalName": "LayoutKanbanIcon",
+    "category": "layout",
+    "tags": [
+      "board",
+      "trello",
+      "columns",
+      "tasks"
+    ]
+  },
+  {
+    "name": "columns-2",
+    "pascalName": "Columns2Icon",
+    "category": "layout",
+    "tags": [
+      "pane",
+      "split",
+      "dual"
+    ]
+  },
+  {
+    "name": "columns-3",
+    "pascalName": "Columns3Icon",
+    "category": "layout",
+    "tags": [
+      "panes",
+      "triple",
+      "grid"
+    ]
+  },
+  {
+    "name": "rows-2",
+    "pascalName": "Rows2Icon",
+    "category": "layout",
+    "tags": [
+      "horizontal",
+      "split",
+      "panes"
+    ]
+  },
+  {
+    "name": "rows-3",
+    "pascalName": "Rows3Icon",
+    "category": "layout",
+    "tags": [
+      "horizontal",
+      "triple",
+      "table"
+    ]
+  },
+  {
+    "name": "split-horizontal",
+    "pascalName": "SplitHorizontalIcon",
+    "category": "layout",
+    "tags": [
+      "divide",
+      "panes",
+      "resize"
+    ]
+  },
+  {
+    "name": "split-vertical",
+    "pascalName": "SplitVerticalIcon",
+    "category": "layout",
+    "tags": [
+      "divide",
+      "panes",
+      "resize"
+    ]
+  },
+  {
+    "name": "app-window",
+    "pascalName": "AppWindowIcon",
+    "category": "layout",
+    "tags": [
+      "application",
+      "desktop",
+      "gui",
+      "frame"
+    ]
+  },
+  {
+    "name": "browser",
+    "pascalName": "BrowserIcon",
+    "category": "layout",
+    "tags": [
+      "web",
+      "page",
+      "chrome",
+      "safari",
+      "site"
+    ]
+  },
+  {
+    "name": "tabs",
+    "pascalName": "TabsIcon",
+    "category": "layout",
+    "tags": [
+      "browser",
+      "multi-tab",
+      "sheets",
+      "window"
+    ]
+  },
+  {
+    "name": "layers",
+    "pascalName": "LayersIcon",
+    "category": "layout",
+    "tags": [
+      "stack",
+      "z-index",
+      "depth",
+      "design"
+    ]
+  },
+  {
+    "name": "stack",
+    "pascalName": "StackIcon",
+    "category": "layout",
+    "tags": [
+      "cards",
+      "deck",
+      "layers",
+      "collection"
+    ]
+  },
+  {
+    "name": "box-select",
+    "pascalName": "BoxSelectIcon",
+    "category": "layout",
+    "tags": [
+      "marquee",
+      "selection",
+      "region",
+      "area"
+    ]
+  },
+  {
+    "name": "crop",
+    "pascalName": "CropIcon",
+    "category": "layout",
+    "tags": [
+      "trim",
+      "cut",
+      "frame",
+      "photo"
+    ]
+  },
+  {
+    "name": "fullscreen",
+    "pascalName": "FullscreenIcon",
+    "category": "layout",
+    "tags": [
+      "expand",
+      "present",
+      "stage",
+      "screen"
+    ]
+  },
+  {
+    "name": "exit-fullscreen",
+    "pascalName": "ExitFullscreenIcon",
+    "category": "layout",
+    "tags": [
+      "collapse",
+      "windowed",
+      "restore"
+    ]
+  },
+  {
+    "name": "picture-in-picture",
+    "pascalName": "PictureInPictureIcon",
+    "category": "layout",
+    "tags": [
+      "pip",
+      "mini-player",
+      "floating",
+      "video"
+    ]
+  },
+  {
+    "name": "file",
+    "pascalName": "FileIcon",
+    "category": "files",
+    "tags": [
+      "document",
+      "page",
+      "blank",
+      "paper"
+    ]
+  },
+  {
+    "name": "file-text",
+    "pascalName": "FileTextIcon",
+    "category": "files",
+    "tags": [
+      "document",
+      "article",
+      "notes",
+      "readme",
+      "doc"
+    ]
+  },
+  {
+    "name": "file-plus",
+    "pascalName": "FilePlusIcon",
+    "category": "files",
+    "tags": [
+      "new-file",
+      "add",
+      "create",
+      "document"
+    ]
+  },
+  {
+    "name": "file-minus",
+    "pascalName": "FileMinusIcon",
+    "category": "files",
+    "tags": [
+      "remove-file",
+      "delete",
+      "document"
+    ]
+  },
+  {
+    "name": "file-check",
+    "pascalName": "FileCheckIcon",
+    "category": "files",
+    "tags": [
+      "approved",
+      "verified",
+      "done",
+      "document"
+    ]
+  },
+  {
+    "name": "file-x",
+    "pascalName": "FileXIcon",
+    "category": "files",
+    "tags": [
+      "error",
+      "corrupt",
+      "reject",
+      "delete"
+    ]
+  },
+  {
+    "name": "file-code",
+    "pascalName": "FileCodeIcon",
+    "category": "files",
+    "tags": [
+      "source",
+      "script",
+      "dev",
+      "programming"
+    ]
+  },
+  {
+    "name": "file-json",
+    "pascalName": "FileJsonIcon",
+    "category": "files",
+    "tags": [
+      "config",
+      "data",
+      "braces",
+      "schema"
+    ]
+  },
+  {
+    "name": "file-image",
+    "pascalName": "FileImageIcon",
+    "category": "files",
+    "tags": [
+      "photo",
+      "picture",
+      "png",
+      "jpg",
+      "media"
+    ]
+  },
+  {
+    "name": "file-video",
+    "pascalName": "FileVideoIcon",
+    "category": "files",
+    "tags": [
+      "movie",
+      "mp4",
+      "clip",
+      "media"
+    ]
+  },
+  {
+    "name": "file-audio",
+    "pascalName": "FileAudioIcon",
+    "category": "files",
+    "tags": [
+      "music",
+      "mp3",
+      "sound",
+      "wav"
+    ]
+  },
+  {
+    "name": "file-spreadsheet",
+    "pascalName": "FileSpreadsheetIcon",
+    "category": "files",
+    "tags": [
+      "excel",
+      "csv",
+      "table",
+      "sheet",
+      "data"
+    ]
+  },
+  {
+    "name": "file-archive",
+    "pascalName": "FileArchiveIcon",
+    "category": "files",
+    "tags": [
+      "zip",
+      "compressed",
+      "tar",
+      "bundle"
+    ]
+  },
+  {
+    "name": "file-search",
+    "pascalName": "FileSearchIcon",
+    "category": "files",
+    "tags": [
+      "find",
+      "inspect",
+      "lookup",
+      "audit"
+    ]
+  },
+  {
+    "name": "file-lock",
+    "pascalName": "FileLockIcon",
+    "category": "files",
+    "tags": [
+      "private",
+      "encrypted",
+      "protected",
+      "secure"
+    ]
+  },
+  {
+    "name": "file-symlink",
+    "pascalName": "FileSymlinkIcon",
+    "category": "files",
+    "tags": [
+      "alias",
+      "shortcut",
+      "link",
+      "reference"
+    ]
+  },
+  {
+    "name": "folder",
+    "pascalName": "FolderIcon",
+    "category": "files",
+    "tags": [
+      "directory",
+      "group",
+      "category",
+      "project"
+    ]
+  },
+  {
+    "name": "folder-open",
+    "pascalName": "FolderOpenIcon",
+    "category": "files",
+    "tags": [
+      "directory",
+      "browse",
+      "expanded"
+    ]
+  },
+  {
+    "name": "folder-plus",
+    "pascalName": "FolderPlusIcon",
+    "category": "files",
+    "tags": [
+      "new-folder",
+      "add",
+      "create",
+      "directory"
+    ]
+  },
+  {
+    "name": "folder-minus",
+    "pascalName": "FolderMinusIcon",
+    "category": "files",
+    "tags": [
+      "remove-folder",
+      "delete",
+      "directory"
+    ]
+  },
+  {
+    "name": "folder-check",
+    "pascalName": "FolderCheckIcon",
+    "category": "files",
+    "tags": [
+      "synced",
+      "verified",
+      "done",
+      "directory"
+    ]
+  },
+  {
+    "name": "folder-search",
+    "pascalName": "FolderSearchIcon",
+    "category": "files",
+    "tags": [
+      "find",
+      "browse",
+      "directory"
+    ]
+  },
+  {
+    "name": "folder-lock",
+    "pascalName": "FolderLockIcon",
+    "category": "files",
+    "tags": [
+      "private",
+      "secure",
+      "vault",
+      "directory"
+    ]
+  },
+  {
+    "name": "folder-archive",
+    "pascalName": "FolderArchiveIcon",
+    "category": "files",
+    "tags": [
+      "zip",
+      "compressed",
+      "backup",
+      "directory"
+    ]
+  },
+  {
+    "name": "archive",
+    "pascalName": "ArchiveIcon",
+    "category": "files",
+    "tags": [
+      "box",
+      "store",
+      "backup",
+      "stash"
+    ]
+  },
+  {
+    "name": "inbox",
+    "pascalName": "InboxIcon",
+    "category": "files",
+    "tags": [
+      "tray",
+      "messages",
+      "received",
+      "mail"
+    ]
+  },
+  {
+    "name": "paperclip",
+    "pascalName": "PaperclipIcon",
+    "category": "files",
+    "tags": [
+      "attach",
+      "attachment",
+      "clip",
+      "file"
+    ]
+  },
+  {
+    "name": "hard-drive",
+    "pascalName": "HardDriveIcon",
+    "category": "files",
+    "tags": [
+      "storage",
+      "disk",
+      "ssd",
+      "hdd",
+      "backup"
+    ]
+  },
+  {
+    "name": "mail",
+    "pascalName": "MailIcon",
+    "category": "communication",
+    "tags": [
+      "email",
+      "envelope",
+      "message",
+      "letter",
+      "inbox"
+    ]
+  },
+  {
+    "name": "mail-open",
+    "pascalName": "MailOpenIcon",
+    "category": "communication",
+    "tags": [
+      "email",
+      "read",
+      "opened",
+      "envelope"
+    ]
+  },
+  {
+    "name": "mail-plus",
+    "pascalName": "MailPlusIcon",
+    "category": "communication",
+    "tags": [
+      "compose",
+      "new-email",
+      "add"
+    ]
+  },
+  {
+    "name": "mail-check",
+    "pascalName": "MailCheckIcon",
+    "category": "communication",
+    "tags": [
+      "delivered",
+      "verified",
+      "email",
+      "sent"
+    ]
+  },
+  {
+    "name": "mail-warning",
+    "pascalName": "MailWarningIcon",
+    "category": "communication",
+    "tags": [
+      "spam",
+      "alert",
+      "bounce",
+      "email"
+    ]
+  },
+  {
+    "name": "send",
+    "pascalName": "SendIcon",
+    "category": "communication",
+    "tags": [
+      "paper-plane",
+      "submit",
+      "deliver",
+      "message"
+    ]
+  },
+  {
+    "name": "reply",
+    "pascalName": "ReplyIcon",
+    "category": "communication",
+    "tags": [
+      "respond",
+      "back",
+      "answer",
+      "email"
+    ]
+  },
+  {
+    "name": "reply-all",
+    "pascalName": "ReplyAllIcon",
+    "category": "communication",
+    "tags": [
+      "respond-all",
+      "group",
+      "email"
+    ]
+  },
+  {
+    "name": "forward",
+    "pascalName": "ForwardIcon",
+    "category": "communication",
+    "tags": [
+      "share",
+      "redirect",
+      "pass",
+      "email"
+    ]
+  },
+  {
+    "name": "message-circle",
+    "pascalName": "MessageCircleIcon",
+    "category": "communication",
+    "tags": [
+      "chat",
+      "comment",
+      "bubble",
+      "talk"
+    ]
+  },
+  {
+    "name": "message-square",
+    "pascalName": "MessageSquareIcon",
+    "category": "communication",
+    "tags": [
+      "chat",
+      "comment",
+      "feedback",
+      "bubble"
+    ]
+  },
+  {
+    "name": "messages-square",
+    "pascalName": "MessagesSquareIcon",
+    "category": "communication",
+    "tags": [
+      "forum",
+      "discussion",
+      "thread",
+      "chat"
+    ]
+  },
+  {
+    "name": "message-plus",
+    "pascalName": "MessagePlusIcon",
+    "category": "communication",
+    "tags": [
+      "new-chat",
+      "comment",
+      "add"
+    ]
+  },
+  {
+    "name": "message-dots",
+    "pascalName": "MessageDotsIcon",
+    "category": "communication",
+    "tags": [
+      "typing",
+      "chat",
+      "reply",
+      "conversation"
+    ]
+  },
+  {
+    "name": "quote",
+    "pascalName": "QuoteIcon",
+    "category": "communication",
+    "tags": [
+      "blockquote",
+      "citation",
+      "testimonial",
+      "speech"
+    ]
+  },
+  {
+    "name": "phone",
+    "pascalName": "PhoneIcon",
+    "category": "communication",
+    "tags": [
+      "call",
+      "telephone",
+      "contact",
+      "support"
+    ]
+  },
+  {
+    "name": "phone-call",
+    "pascalName": "PhoneCallIcon",
+    "category": "communication",
+    "tags": [
+      "ringing",
+      "active",
+      "voice",
+      "telephone"
+    ]
+  },
+  {
+    "name": "phone-incoming",
+    "pascalName": "PhoneIncomingIcon",
+    "category": "communication",
+    "tags": [
+      "receive",
+      "call",
+      "inbound"
+    ]
+  },
+  {
+    "name": "phone-outgoing",
+    "pascalName": "PhoneOutgoingIcon",
+    "category": "communication",
+    "tags": [
+      "dial",
+      "call",
+      "outbound"
+    ]
+  },
+  {
+    "name": "phone-missed",
+    "pascalName": "PhoneMissedIcon",
+    "category": "communication",
+    "tags": [
+      "declined",
+      "unanswered",
+      "call"
+    ]
+  },
+  {
+    "name": "phone-off",
+    "pascalName": "PhoneOffIcon",
+    "category": "communication",
+    "tags": [
+      "hangup",
+      "mute",
+      "disconnected",
+      "call"
+    ]
+  },
+  {
+    "name": "voicemail",
+    "pascalName": "VoicemailIcon",
+    "category": "communication",
+    "tags": [
+      "recording",
+      "message",
+      "tape",
+      "phone"
+    ]
+  },
+  {
+    "name": "bell",
+    "pascalName": "BellIcon",
+    "category": "communication",
+    "tags": [
+      "notification",
+      "alert",
+      "alarm",
+      "subscribe"
+    ]
+  },
+  {
+    "name": "bell-off",
+    "pascalName": "BellOffIcon",
+    "category": "communication",
+    "tags": [
+      "mute",
+      "silent",
+      "dnd",
+      "notifications-off"
+    ]
+  },
+  {
+    "name": "bell-ring",
+    "pascalName": "BellRingIcon",
+    "category": "communication",
+    "tags": [
+      "active",
+      "alert",
+      "chime",
+      "notification"
+    ]
+  },
+  {
+    "name": "bell-dot",
+    "pascalName": "BellDotIcon",
+    "category": "communication",
+    "tags": [
+      "unread",
+      "badge",
+      "new-notification",
+      "alert"
+    ]
+  },
+  {
+    "name": "megaphone",
+    "pascalName": "MegaphoneIcon",
+    "category": "communication",
+    "tags": [
+      "announcement",
+      "broadcast",
+      "marketing",
+      "campaign"
+    ]
+  },
+  {
+    "name": "at-sign",
+    "pascalName": "AtSignIcon",
+    "category": "communication",
+    "tags": [
+      "mention",
+      "email",
+      "handle",
+      "username"
+    ]
+  },
+  {
+    "name": "hash",
+    "pascalName": "HashIcon",
+    "category": "communication",
+    "tags": [
+      "channel",
+      "tag",
+      "number",
+      "pound",
+      "slack"
+    ]
+  },
+  {
+    "name": "contact",
+    "pascalName": "ContactIcon",
+    "category": "communication",
+    "tags": [
+      "address-book",
+      "profile",
+      "directory",
+      "vcard"
+    ]
+  },
+  {
+    "name": "user",
+    "pascalName": "UserIcon",
+    "category": "users",
+    "tags": [
+      "person",
+      "account",
+      "profile",
+      "member",
+      "avatar"
+    ]
+  },
+  {
+    "name": "user-circle",
+    "pascalName": "UserCircleIcon",
+    "category": "users",
+    "tags": [
+      "avatar",
+      "profile",
+      "account",
+      "person"
+    ]
+  },
+  {
+    "name": "user-plus",
+    "pascalName": "UserPlusIcon",
+    "category": "users",
+    "tags": [
+      "invite",
+      "add-member",
+      "register",
+      "signup"
+    ]
+  },
+  {
+    "name": "user-minus",
+    "pascalName": "UserMinusIcon",
+    "category": "users",
+    "tags": [
+      "remove-member",
+      "unfollow",
+      "revoke"
+    ]
+  },
+  {
+    "name": "user-check",
+    "pascalName": "UserCheckIcon",
+    "category": "users",
+    "tags": [
+      "verified-user",
+      "approved",
+      "following",
+      "active"
+    ]
+  },
+  {
+    "name": "user-x",
+    "pascalName": "UserXIcon",
+    "category": "users",
+    "tags": [
+      "block",
+      "ban",
+      "remove",
+      "rejected"
+    ]
+  },
+  {
+    "name": "user-cog",
+    "pascalName": "UserCogIcon",
+    "category": "users",
+    "tags": [
+      "account-settings",
+      "admin",
+      "manage",
+      "permissions"
+    ]
+  },
+  {
+    "name": "user-shield",
+    "pascalName": "UserShieldIcon",
+    "category": "users",
+    "tags": [
+      "moderator",
+      "admin",
+      "security",
+      "role"
+    ]
+  },
+  {
+    "name": "users",
+    "pascalName": "UsersIcon",
+    "category": "users",
+    "tags": [
+      "team",
+      "group",
+      "people",
+      "organization",
+      "members"
+    ]
+  },
+  {
+    "name": "users-plus",
+    "pascalName": "UsersPlusIcon",
+    "category": "users",
+    "tags": [
+      "invite-team",
+      "add-group",
+      "community"
+    ]
+  },
+  {
+    "name": "id-card",
+    "pascalName": "IdCardIcon",
+    "category": "users",
+    "tags": [
+      "badge",
+      "identity",
+      "employee",
+      "credential"
+    ]
+  },
+  {
+    "name": "badge-check",
+    "pascalName": "BadgeCheckIcon",
+    "category": "users",
+    "tags": [
+      "verified",
+      "official",
+      "certified",
+      "trust"
+    ]
+  },
+  {
+    "name": "smile",
+    "pascalName": "SmileIcon",
+    "category": "users",
+    "tags": [
+      "happy",
+      "emoji",
+      "positive",
+      "feedback"
+    ]
+  },
+  {
+    "name": "frown",
+    "pascalName": "FrownIcon",
+    "category": "users",
+    "tags": [
+      "sad",
+      "unhappy",
+      "emoji",
+      "negative"
+    ]
+  },
+  {
+    "name": "meh",
+    "pascalName": "MehIcon",
+    "category": "users",
+    "tags": [
+      "neutral",
+      "indifferent",
+      "emoji",
+      "feedback"
+    ]
+  },
+  {
+    "name": "thumbs-up",
+    "pascalName": "ThumbsUpIcon",
+    "category": "users",
+    "tags": [
+      "like",
+      "approve",
+      "upvote",
+      "good"
+    ]
+  },
+  {
+    "name": "thumbs-down",
+    "pascalName": "ThumbsDownIcon",
+    "category": "users",
+    "tags": [
+      "dislike",
+      "reject",
+      "downvote",
+      "bad"
+    ]
+  },
+  {
+    "name": "hand",
+    "pascalName": "HandIcon",
+    "category": "users",
+    "tags": [
+      "pan",
+      "grab",
+      "stop",
+      "raise-hand",
+      "palm"
+    ]
+  },
+  {
+    "name": "accessibility",
+    "pascalName": "AccessibilityIcon",
+    "category": "users",
+    "tags": [
+      "a11y",
+      "inclusive",
+      "human",
+      "universal"
+    ]
+  },
+  {
+    "name": "footprints",
+    "pascalName": "FootprintsIcon",
+    "category": "users",
+    "tags": [
+      "steps",
+      "walk",
+      "track",
+      "activity"
+    ]
+  },
+  {
+    "name": "lock",
+    "pascalName": "LockIcon",
+    "category": "security",
+    "tags": [
+      "padlock",
+      "private",
+      "secure",
+      "password",
+      "closed"
+    ]
+  },
+  {
+    "name": "lock-open",
+    "pascalName": "LockOpenIcon",
+    "category": "security",
+    "tags": [
+      "unlock",
+      "public",
+      "accessible",
+      "open"
+    ]
+  },
+  {
+    "name": "lock-keyhole",
+    "pascalName": "LockKeyholeIcon",
+    "category": "security",
+    "tags": [
+      "padlock",
+      "encrypt",
+      "auth",
+      "vault"
+    ]
+  },
+  {
+    "name": "key",
+    "pascalName": "KeyIcon",
+    "category": "security",
+    "tags": [
+      "password",
+      "token",
+      "secret",
+      "access",
+      "api-key"
+    ]
+  },
+  {
+    "name": "key-round",
+    "pascalName": "KeyRoundIcon",
+    "category": "security",
+    "tags": [
+      "ssh",
+      "credential",
+      "login",
+      "secret"
+    ]
+  },
+  {
+    "name": "fingerprint",
+    "pascalName": "FingerprintIcon",
+    "category": "security",
+    "tags": [
+      "biometric",
+      "touch-id",
+      "identity",
+      "auth"
+    ]
+  },
+  {
+    "name": "scan-face",
+    "pascalName": "ScanFaceIcon",
+    "category": "security",
+    "tags": [
+      "face-id",
+      "biometric",
+      "login",
+      "apple"
+    ]
+  },
+  {
+    "name": "shield",
+    "pascalName": "ShieldIcon",
+    "category": "security",
+    "tags": [
+      "protect",
+      "defense",
+      "safe",
+      "guard"
+    ]
+  },
+  {
+    "name": "shield-check",
+    "pascalName": "ShieldCheckIcon",
+    "category": "security",
+    "tags": [
+      "verified",
+      "protected",
+      "safe",
+      "compliant"
+    ]
+  },
+  {
+    "name": "shield-alert",
+    "pascalName": "ShieldAlertIcon",
+    "category": "security",
+    "tags": [
+      "warning",
+      "vulnerability",
+      "risk",
+      "caution"
+    ]
+  },
+  {
+    "name": "shield-x",
+    "pascalName": "ShieldXIcon",
+    "category": "security",
+    "tags": [
+      "blocked",
+      "unsafe",
+      "denied",
+      "compromised"
+    ]
+  },
+  {
+    "name": "shield-off",
+    "pascalName": "ShieldOffIcon",
+    "category": "security",
+    "tags": [
+      "unprotected",
+      "disabled",
+      "insecure"
+    ]
+  },
+  {
+    "name": "shield-lock",
+    "pascalName": "ShieldLockIcon",
+    "category": "security",
+    "tags": [
+      "encrypted",
+      "vpn",
+      "zero-trust",
+      "privacy"
+    ]
+  },
+  {
+    "name": "verified",
+    "pascalName": "VerifiedIcon",
+    "category": "security",
+    "tags": [
+      "authentic",
+      "trust",
+      "seal",
+      "check"
+    ]
+  },
+  {
+    "name": "incognito",
+    "pascalName": "IncognitoIcon",
+    "category": "security",
+    "tags": [
+      "private",
+      "anonymous",
+      "stealth",
+      "spy"
+    ]
+  },
+  {
+    "name": "bug",
+    "pascalName": "BugIcon",
+    "category": "security",
+    "tags": [
+      "issue",
+      "debug",
+      "defect",
+      "malware",
+      "insect"
+    ]
+  },
+  {
+    "name": "siren",
+    "pascalName": "SirenIcon",
+    "category": "security",
+    "tags": [
+      "emergency",
+      "incident",
+      "alert",
+      "alarm"
+    ]
+  },
+  {
+    "name": "vault",
+    "pascalName": "VaultIcon",
+    "category": "security",
+    "tags": [
+      "safe",
+      "secrets",
+      "storage",
+      "bank"
+    ]
+  },
+  {
+    "name": "passkey",
+    "pascalName": "PasskeyIcon",
+    "category": "security",
+    "tags": [
+      "webauthn",
+      "fido",
+      "login",
+      "passwordless"
+    ]
+  },
+  {
+    "name": "qr-code",
+    "pascalName": "QrCodeIcon",
+    "category": "security",
+    "tags": [
+      "scan",
+      "2fa",
+      "barcode",
+      "code"
+    ]
+  },
+  {
+    "name": "sparkles",
+    "pascalName": "SparklesIcon",
+    "category": "ai",
+    "tags": [
+      "ai",
+      "magic",
+      "generate",
+      "assistant",
+      "llm"
+    ]
+  },
+  {
+    "name": "sparkle",
+    "pascalName": "SparkleIcon",
+    "category": "ai",
+    "tags": [
+      "ai",
+      "star",
+      "shine",
+      "magic",
+      "gemini"
+    ]
+  },
+  {
+    "name": "wand",
+    "pascalName": "WandIcon",
+    "category": "ai",
+    "tags": [
+      "magic",
+      "autofill",
+      "generate",
+      "enhance"
+    ]
+  },
+  {
+    "name": "bot",
+    "pascalName": "BotIcon",
+    "category": "ai",
+    "tags": [
+      "agent",
+      "robot",
+      "assistant",
+      "automation",
+      "ai"
+    ]
+  },
+  {
+    "name": "brain",
+    "pascalName": "BrainIcon",
+    "category": "ai",
+    "tags": [
+      "intelligence",
+      "thinking",
+      "memory",
+      "neural",
+      "model"
+    ]
+  },
+  {
+    "name": "cpu-ai",
+    "pascalName": "CpuAiIcon",
+    "category": "ai",
+    "tags": [
+      "npu",
+      "chip",
+      "inference",
+      "gpu",
+      "hardware"
+    ]
+  },
+  {
+    "name": "stars",
+    "pascalName": "StarsIcon",
+    "category": "ai",
+    "tags": [
+      "twinkle",
+      "magic",
+      "ai",
+      "constellation"
+    ]
+  },
+  {
+    "name": "workflow",
+    "pascalName": "WorkflowIcon",
+    "category": "ai",
+    "tags": [
+      "pipeline",
+      "automation",
+      "flow",
+      "agent",
+      "graph"
+    ]
+  },
+  {
+    "name": "nodes",
+    "pascalName": "NodesIcon",
+    "category": "ai",
+    "tags": [
+      "graph",
+      "network",
+      "knowledge",
+      "embeddings"
+    ]
+  },
+  {
+    "name": "circuit",
+    "pascalName": "CircuitIcon",
+    "category": "ai",
+    "tags": [
+      "pcb",
+      "electronics",
+      "hardware",
+      "trace"
+    ]
+  },
+  {
+    "name": "prompt",
+    "pascalName": "PromptIcon",
+    "category": "ai",
+    "tags": [
+      "input",
+      "command",
+      "ask",
+      "llm",
+      "ai"
+    ]
+  },
+  {
+    "name": "chat-ai",
+    "pascalName": "ChatAiIcon",
+    "category": "ai",
+    "tags": [
+      "copilot",
+      "assistant",
+      "conversation",
+      "llm"
+    ]
+  },
+  {
+    "name": "image-ai",
+    "pascalName": "ImageAiIcon",
+    "category": "ai",
+    "tags": [
+      "generate-image",
+      "diffusion",
+      "art",
+      "visual"
+    ]
+  },
+  {
+    "name": "code-ai",
+    "pascalName": "CodeAiIcon",
+    "category": "ai",
+    "tags": [
+      "copilot",
+      "coding-agent",
+      "autocomplete",
+      "generate"
+    ]
+  },
+  {
+    "name": "radar",
+    "pascalName": "RadarIcon",
+    "category": "ai",
+    "tags": [
+      "scan",
+      "detect",
+      "monitor",
+      "telemetry"
+    ]
+  },
+  {
+    "name": "atom",
+    "pascalName": "AtomIcon",
+    "category": "ai",
+    "tags": [
+      "science",
+      "physics",
+      "react",
+      "quantum",
+      "nucleus"
+    ]
+  },
+  {
+    "name": "orbit",
+    "pascalName": "OrbitIcon",
+    "category": "ai",
+    "tags": [
+      "planet",
+      "space",
+      "ecosystem",
+      "hub"
+    ]
+  },
+  {
+    "name": "telescope",
+    "pascalName": "TelescopeIcon",
+    "category": "ai",
+    "tags": [
+      "explore",
+      "discover",
+      "observability",
+      "search"
+    ]
+  },
+  {
+    "name": "flask",
+    "pascalName": "FlaskIcon",
+    "category": "ai",
+    "tags": [
+      "experiment",
+      "lab",
+      "beta",
+      "research",
+      "eval"
+    ]
+  },
+  {
+    "name": "microscope",
+    "pascalName": "MicroscopeIcon",
+    "category": "ai",
+    "tags": [
+      "inspect",
+      "research",
+      "science",
+      "analysis"
+    ]
+  },
+  {
+    "name": "code",
+    "pascalName": "CodeIcon",
+    "category": "development",
+    "tags": [
+      "html",
+      "xml",
+      "dev",
+      "programming",
+      "tags"
+    ]
+  },
+  {
+    "name": "code-2",
+    "pascalName": "Code2Icon",
+    "category": "development",
+    "tags": [
+      "source",
+      "syntax",
+      "slash",
+      "dev"
+    ]
+  },
+  {
+    "name": "terminal",
+    "pascalName": "TerminalIcon",
+    "category": "development",
+    "tags": [
+      "cli",
+      "shell",
+      "console",
+      "bash",
+      "prompt"
+    ]
+  },
+  {
+    "name": "terminal-square",
+    "pascalName": "TerminalSquareIcon",
+    "category": "development",
+    "tags": [
+      "cli",
+      "console",
+      "command",
+      "shell"
+    ]
+  },
+  {
+    "name": "braces",
+    "pascalName": "BracesIcon",
+    "category": "development",
+    "tags": [
+      "json",
+      "object",
+      "curly",
+      "code"
+    ]
+  },
+  {
+    "name": "brackets",
+    "pascalName": "BracketsIcon",
+    "category": "development",
+    "tags": [
+      "array",
+      "square",
+      "list",
+      "code"
+    ]
+  },
+  {
+    "name": "regex",
+    "pascalName": "RegexIcon",
+    "category": "development",
+    "tags": [
+      "pattern",
+      "match",
+      "expression",
+      "search"
+    ]
+  },
+  {
+    "name": "git-branch",
+    "pascalName": "GitBranchIcon",
+    "category": "development",
+    "tags": [
+      "vcs",
+      "github",
+      "version",
+      "tree"
+    ]
+  },
+  {
+    "name": "git-commit",
+    "pascalName": "GitCommitIcon",
+    "category": "development",
+    "tags": [
+      "vcs",
+      "snapshot",
+      "sha",
+      "revision"
+    ]
+  },
+  {
+    "name": "git-merge",
+    "pascalName": "GitMergeIcon",
+    "category": "development",
+    "tags": [
+      "vcs",
+      "combine",
+      "pull-request",
+      "join"
+    ]
+  },
+  {
+    "name": "git-pull-request",
+    "pascalName": "GitPullRequestIcon",
+    "category": "development",
+    "tags": [
+      "pr",
+      "review",
+      "github",
+      "vcs"
+    ]
+  },
+  {
+    "name": "git-fork",
+    "pascalName": "GitForkIcon",
+    "category": "development",
+    "tags": [
+      "clone",
+      "split",
+      "repo",
+      "vcs"
+    ]
+  },
+  {
+    "name": "git-compare",
+    "pascalName": "GitCompareIcon",
+    "category": "development",
+    "tags": [
+      "diff",
+      "review",
+      "changes",
+      "vcs"
+    ]
+  },
+  {
+    "name": "git-diff",
+    "pascalName": "GitDiffIcon",
+    "category": "development",
+    "tags": [
+      "plus-minus",
+      "changes",
+      "patch",
+      "compare"
+    ]
+  },
+  {
+    "name": "database",
+    "pascalName": "DatabaseIcon",
+    "category": "development",
+    "tags": [
+      "sql",
+      "postgres",
+      "storage",
+      "table",
+      "neon"
+    ]
+  },
+  {
+    "name": "server",
+    "pascalName": "ServerIcon",
+    "category": "development",
+    "tags": [
+      "host",
+      "backend",
+      "rack",
+      "cluster",
+      "machine"
+    ]
+  },
+  {
+    "name": "cpu",
+    "pascalName": "CpuIcon",
+    "category": "development",
+    "tags": [
+      "processor",
+      "chip",
+      "compute",
+      "hardware"
+    ]
+  },
+  {
+    "name": "memory-stick",
+    "pascalName": "MemoryStickIcon",
+    "category": "development",
+    "tags": [
+      "ram",
+      "hardware",
+      "dimm",
+      "chip"
+    ]
+  },
+  {
+    "name": "cloud",
+    "pascalName": "CloudIcon",
+    "category": "development",
+    "tags": [
+      "hosting",
+      "aws",
+      "sync",
+      "weather",
+      "saas"
+    ]
+  },
+  {
+    "name": "cloud-upload",
+    "pascalName": "CloudUploadIcon",
+    "category": "development",
+    "tags": [
+      "deploy",
+      "backup",
+      "push",
+      "sync"
+    ]
+  },
+  {
+    "name": "cloud-download",
+    "pascalName": "CloudDownloadIcon",
+    "category": "development",
+    "tags": [
+      "pull",
+      "fetch",
+      "sync",
+      "export"
+    ]
+  },
+  {
+    "name": "cloud-off",
+    "pascalName": "CloudOffIcon",
+    "category": "development",
+    "tags": [
+      "offline",
+      "disconnected",
+      "sync-error"
+    ]
+  },
+  {
+    "name": "cloud-check",
+    "pascalName": "CloudCheckIcon",
+    "category": "development",
+    "tags": [
+      "synced",
+      "deployed",
+      "saved",
+      "ready"
+    ]
+  },
+  {
+    "name": "globe",
+    "pascalName": "GlobeIcon",
+    "category": "development",
+    "tags": [
+      "world",
+      "web",
+      "internet",
+      "domain",
+      "i18n"
+    ]
+  },
+  {
+    "name": "network",
+    "pascalName": "NetworkIcon",
+    "category": "development",
+    "tags": [
+      "hierarchy",
+      "sitemap",
+      "cluster",
+      "lan"
+    ]
+  },
+  {
+    "name": "webhook",
+    "pascalName": "WebhookIcon",
+    "category": "development",
+    "tags": [
+      "event",
+      "callback",
+      "trigger",
+      "integration"
+    ]
+  },
+  {
+    "name": "api",
+    "pascalName": "ApiIcon",
+    "category": "development",
+    "tags": [
+      "endpoint",
+      "rest",
+      "rpc",
+      "sdk",
+      "plug"
+    ]
+  },
+  {
+    "name": "container",
+    "pascalName": "ContainerIcon",
+    "category": "development",
+    "tags": [
+      "docker",
+      "pod",
+      "sandbox",
+      "shipping"
+    ]
+  },
+  {
+    "name": "package",
+    "pascalName": "PackageIcon",
+    "category": "development",
+    "tags": [
+      "npm",
+      "module",
+      "box",
+      "dependency",
+      "crate"
+    ]
+  },
+  {
+    "name": "blocks",
+    "pascalName": "BlocksIcon",
+    "category": "development",
+    "tags": [
+      "components",
+      "plugins",
+      "modules",
+      "lego"
+    ]
+  },
+  {
+    "name": "binary",
+    "pascalName": "BinaryIcon",
+    "category": "development",
+    "tags": [
+      "bits",
+      "01",
+      "machine-code",
+      "data"
+    ]
+  },
+  {
+    "name": "bold",
+    "pascalName": "BoldIcon",
+    "category": "editor",
+    "tags": [
+      "strong",
+      "weight",
+      "format",
+      "typography"
+    ]
+  },
+  {
+    "name": "italic",
+    "pascalName": "ItalicIcon",
+    "category": "editor",
+    "tags": [
+      "emphasis",
+      "slant",
+      "format",
+      "typography"
+    ]
+  },
+  {
+    "name": "underline",
+    "pascalName": "UnderlineIcon",
+    "category": "editor",
+    "tags": [
+      "format",
+      "text",
+      "typography",
+      "line"
+    ]
+  },
+  {
+    "name": "strikethrough",
+    "pascalName": "StrikethroughIcon",
+    "category": "editor",
+    "tags": [
+      "strike",
+      "cross-out",
+      "format",
+      "text"
+    ]
+  },
+  {
+    "name": "heading",
+    "pascalName": "HeadingIcon",
+    "category": "editor",
+    "tags": [
+      "title",
+      "h1",
+      "header",
+      "typography"
+    ]
+  },
+  {
+    "name": "heading-1",
+    "pascalName": "Heading1Icon",
+    "category": "editor",
+    "tags": [
+      "h1",
+      "title",
+      "header",
+      "markdown"
+    ]
+  },
+  {
+    "name": "heading-2",
+    "pascalName": "Heading2Icon",
+    "category": "editor",
+    "tags": [
+      "h2",
+      "subtitle",
+      "header",
+      "markdown"
+    ]
+  },
+  {
+    "name": "heading-3",
+    "pascalName": "Heading3Icon",
+    "category": "editor",
+    "tags": [
+      "h3",
+      "section",
+      "header",
+      "markdown"
+    ]
+  },
+  {
+    "name": "type",
+    "pascalName": "TypeIcon",
+    "category": "editor",
+    "tags": [
+      "font",
+      "text",
+      "letter",
+      "typography"
+    ]
+  },
+  {
+    "name": "align-left",
+    "pascalName": "AlignLeftIcon",
+    "category": "editor",
+    "tags": [
+      "text",
+      "paragraph",
+      "flush-left"
+    ]
+  },
+  {
+    "name": "align-center",
+    "pascalName": "AlignCenterIcon",
+    "category": "editor",
+    "tags": [
+      "text",
+      "paragraph",
+      "centered"
+    ]
+  },
+  {
+    "name": "align-right",
+    "pascalName": "AlignRightIcon",
+    "category": "editor",
+    "tags": [
+      "text",
+      "paragraph",
+      "flush-right"
+    ]
+  },
+  {
+    "name": "align-justify",
+    "pascalName": "AlignJustifyIcon",
+    "category": "editor",
+    "tags": [
+      "text",
+      "paragraph",
+      "block"
+    ]
+  },
+  {
+    "name": "list",
+    "pascalName": "ListIcon",
+    "category": "editor",
+    "tags": [
+      "bullets",
+      "unordered",
+      "items",
+      "menu"
+    ]
+  },
+  {
+    "name": "list-ordered",
+    "pascalName": "ListOrderedIcon",
+    "category": "editor",
+    "tags": [
+      "numbered",
+      "steps",
+      "outline",
+      "items"
+    ]
+  },
+  {
+    "name": "list-checks",
+    "pascalName": "ListChecksIcon",
+    "category": "editor",
+    "tags": [
+      "todo",
+      "checklist",
+      "tasks",
+      "completed"
+    ]
+  },
+  {
+    "name": "list-tree",
+    "pascalName": "ListTreeIcon",
+    "category": "editor",
+    "tags": [
+      "nested",
+      "outline",
+      "hierarchy",
+      "explorer"
+    ]
+  },
+  {
+    "name": "indent",
+    "pascalName": "IndentIcon",
+    "category": "editor",
+    "tags": [
+      "tab",
+      "increase",
+      "right",
+      "paragraph"
+    ]
+  },
+  {
+    "name": "outdent",
+    "pascalName": "OutdentIcon",
+    "category": "editor",
+    "tags": [
+      "shift-tab",
+      "decrease",
+      "left",
+      "paragraph"
+    ]
+  },
+  {
+    "name": "link",
+    "pascalName": "LinkIcon",
+    "category": "editor",
+    "tags": [
+      "url",
+      "chain",
+      "hyperlink",
+      "connect"
+    ]
+  },
+  {
+    "name": "link-2",
+    "pascalName": "Link2Icon",
+    "category": "editor",
+    "tags": [
+      "url",
+      "horizontal",
+      "chain",
+      "connect"
+    ]
+  },
+  {
+    "name": "unlink",
+    "pascalName": "UnlinkIcon",
+    "category": "editor",
+    "tags": [
+      "disconnect",
+      "break-link",
+      "detach",
+      "url"
+    ]
+  },
+  {
+    "name": "pilcrow",
+    "pascalName": "PilcrowIcon",
+    "category": "editor",
+    "tags": [
+      "paragraph",
+      "formatting",
+      "whitespace",
+      "symbol"
+    ]
+  },
+  {
+    "name": "superscript",
+    "pascalName": "SuperscriptIcon",
+    "category": "editor",
+    "tags": [
+      "exponent",
+      "power",
+      "math",
+      "format"
+    ]
+  },
+  {
+    "name": "subscript",
+    "pascalName": "SubscriptIcon",
+    "category": "editor",
+    "tags": [
+      "index",
+      "formula",
+      "math",
+      "format"
+    ]
+  },
+  {
+    "name": "highlighter",
+    "pascalName": "HighlighterIcon",
+    "category": "editor",
+    "tags": [
+      "marker",
+      "annotate",
+      "accent",
+      "color"
+    ]
+  },
+  {
+    "name": "eraser",
+    "pascalName": "EraserIcon",
+    "category": "editor",
+    "tags": [
+      "clear",
+      "rubber",
+      "remove",
+      "draw"
+    ]
+  },
+  {
+    "name": "play",
+    "pascalName": "PlayIcon",
+    "category": "media",
+    "tags": [
+      "start",
+      "run",
+      "video",
+      "audio",
+      "resume"
+    ]
+  },
+  {
+    "name": "play-circle",
+    "pascalName": "PlayCircleIcon",
+    "category": "media",
+    "tags": [
+      "watch",
+      "video",
+      "run",
+      "tutorial"
+    ]
+  },
+  {
+    "name": "pause",
+    "pascalName": "PauseIcon",
+    "category": "media",
+    "tags": [
+      "hold",
+      "suspend",
+      "media",
+      "wait"
+    ]
+  },
+  {
+    "name": "pause-circle",
+    "pascalName": "PauseCircleIcon",
+    "category": "media",
+    "tags": [
+      "hold",
+      "media",
+      "suspend"
+    ]
+  },
+  {
+    "name": "stop",
+    "pascalName": "StopIcon",
+    "category": "media",
+    "tags": [
+      "halt",
+      "end",
+      "square",
+      "media"
+    ]
+  },
+  {
+    "name": "stop-circle",
+    "pascalName": "StopCircleIcon",
+    "category": "media",
+    "tags": [
+      "halt",
+      "end",
+      "abort",
+      "media"
+    ]
+  },
+  {
+    "name": "record",
+    "pascalName": "RecordIcon",
+    "category": "media",
+    "tags": [
+      "capture",
+      "live",
+      "dot",
+      "rec"
+    ]
+  },
+  {
+    "name": "skip-back",
+    "pascalName": "SkipBackIcon",
+    "category": "media",
+    "tags": [
+      "previous",
+      "track",
+      "rewind",
+      "media"
+    ]
+  },
+  {
+    "name": "skip-forward",
+    "pascalName": "SkipForwardIcon",
+    "category": "media",
+    "tags": [
+      "next",
+      "track",
+      "media"
+    ]
+  },
+  {
+    "name": "rewind",
+    "pascalName": "RewindIcon",
+    "category": "media",
+    "tags": [
+      "backward",
+      "seek",
+      "fast",
+      "media"
+    ]
+  },
+  {
+    "name": "fast-forward",
+    "pascalName": "FastForwardIcon",
+    "category": "media",
+    "tags": [
+      "forward",
+      "seek",
+      "speed",
+      "media"
+    ]
+  },
+  {
+    "name": "step-back",
+    "pascalName": "StepBackIcon",
+    "category": "media",
+    "tags": [
+      "frame-back",
+      "debug",
+      "previous"
+    ]
+  },
+  {
+    "name": "step-forward",
+    "pascalName": "StepForwardIcon",
+    "category": "media",
+    "tags": [
+      "frame-forward",
+      "debug",
+      "next"
+    ]
+  },
+  {
+    "name": "volume",
+    "pascalName": "VolumeIcon",
+    "category": "media",
+    "tags": [
+      "sound",
+      "audio",
+      "speaker",
+      "low"
+    ]
+  },
+  {
+    "name": "volume-1",
+    "pascalName": "Volume1Icon",
+    "category": "media",
+    "tags": [
+      "sound",
+      "audio",
+      "medium",
+      "speaker"
+    ]
+  },
+  {
+    "name": "volume-2",
+    "pascalName": "Volume2Icon",
+    "category": "media",
+    "tags": [
+      "sound",
+      "audio",
+      "loud",
+      "speaker"
+    ]
+  },
+  {
+    "name": "volume-x",
+    "pascalName": "VolumeXIcon",
+    "category": "media",
+    "tags": [
+      "mute",
+      "silent",
+      "sound-off",
+      "audio"
+    ]
+  },
+  {
+    "name": "mic",
+    "pascalName": "MicIcon",
+    "category": "media",
+    "tags": [
+      "microphone",
+      "voice",
+      "dictation",
+      "record",
+      "audio"
+    ]
+  },
+  {
+    "name": "mic-off",
+    "pascalName": "MicOffIcon",
+    "category": "media",
+    "tags": [
+      "mute",
+      "microphone",
+      "voice-off",
+      "silent"
+    ]
+  },
+  {
+    "name": "headphones",
+    "pascalName": "HeadphonesIcon",
+    "category": "media",
+    "tags": [
+      "audio",
+      "listen",
+      "music",
+      "support",
+      "headset"
+    ]
+  },
+  {
+    "name": "speaker",
+    "pascalName": "SpeakerIcon",
+    "category": "media",
+    "tags": [
+      "audio",
+      "woofer",
+      "sound",
+      "device"
+    ]
+  },
+  {
+    "name": "music",
+    "pascalName": "MusicIcon",
+    "category": "media",
+    "tags": [
+      "song",
+      "note",
+      "audio",
+      "melody",
+      "playlist"
+    ]
+  },
+  {
+    "name": "disc",
+    "pascalName": "DiscIcon",
+    "category": "media",
+    "tags": [
+      "vinyl",
+      "album",
+      "cd",
+      "record",
+      "music"
+    ]
+  },
+  {
+    "name": "radio",
+    "pascalName": "RadioIcon",
+    "category": "media",
+    "tags": [
+      "broadcast",
+      "live",
+      "signal",
+      "stream"
+    ]
+  },
+  {
+    "name": "podcast",
+    "pascalName": "PodcastIcon",
+    "category": "media",
+    "tags": [
+      "audio",
+      "episode",
+      "broadcast",
+      "stream"
+    ]
+  },
+  {
+    "name": "waveform",
+    "pascalName": "WaveformIcon",
+    "category": "media",
+    "tags": [
+      "audio",
+      "voice",
+      "equalizer",
+      "sound",
+      "transcribe"
+    ]
+  },
+  {
+    "name": "captions",
+    "pascalName": "CaptionsIcon",
+    "category": "media",
+    "tags": [
+      "subtitles",
+      "cc",
+      "transcript",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "camera",
+    "pascalName": "CameraIcon",
+    "category": "media",
+    "tags": [
+      "photo",
+      "snapshot",
+      "capture",
+      "picture"
+    ]
+  },
+  {
+    "name": "camera-off",
+    "pascalName": "CameraOffIcon",
+    "category": "media",
+    "tags": [
+      "no-photo",
+      "disabled",
+      "privacy"
+    ]
+  },
+  {
+    "name": "video",
+    "pascalName": "VideoIcon",
+    "category": "media",
+    "tags": [
+      "camcorder",
+      "meeting",
+      "call",
+      "film",
+      "record"
+    ]
+  },
+  {
+    "name": "video-off",
+    "pascalName": "VideoOffIcon",
+    "category": "media",
+    "tags": [
+      "camera-off",
+      "meeting",
+      "disabled"
+    ]
+  },
+  {
+    "name": "image",
+    "pascalName": "ImageIcon",
+    "category": "media",
+    "tags": [
+      "photo",
+      "picture",
+      "gallery",
+      "thumbnail"
+    ]
+  },
+  {
+    "name": "images",
+    "pascalName": "ImagesIcon",
+    "category": "media",
+    "tags": [
+      "photos",
+      "album",
+      "gallery",
+      "stack"
+    ]
+  },
+  {
+    "name": "film",
+    "pascalName": "FilmIcon",
+    "category": "media",
+    "tags": [
+      "cinema",
+      "movie",
+      "reel",
+      "video"
+    ]
+  },
+  {
+    "name": "aperture",
+    "pascalName": "ApertureIcon",
+    "category": "media",
+    "tags": [
+      "lens",
+      "shutter",
+      "photography",
+      "iris"
+    ]
+  },
+  {
+    "name": "bar-chart",
+    "pascalName": "BarChartIcon",
+    "category": "charts",
+    "tags": [
+      "analytics",
+      "metrics",
+      "stats",
+      "graph",
+      "columns"
+    ]
+  },
+  {
+    "name": "bar-chart-2",
+    "pascalName": "BarChart2Icon",
+    "category": "charts",
+    "tags": [
+      "histogram",
+      "axis",
+      "report",
+      "metrics"
+    ]
+  },
+  {
+    "name": "bar-chart-horizontal",
+    "pascalName": "BarChartHorizontalIcon",
+    "category": "charts",
+    "tags": [
+      "ranking",
+      "breakdown",
+      "metrics",
+      "graph"
+    ]
+  },
+  {
+    "name": "line-chart",
+    "pascalName": "LineChartIcon",
+    "category": "charts",
+    "tags": [
+      "trend",
+      "analytics",
+      "series",
+      "graph"
+    ]
+  },
+  {
+    "name": "area-chart",
+    "pascalName": "AreaChartIcon",
+    "category": "charts",
+    "tags": [
+      "filled-graph",
+      "volume",
+      "analytics",
+      "series"
+    ]
+  },
+  {
+    "name": "pie-chart",
+    "pascalName": "PieChartIcon",
+    "category": "charts",
+    "tags": [
+      "share",
+      "proportion",
+      "breakdown",
+      "analytics"
+    ]
+  },
+  {
+    "name": "donut-chart",
+    "pascalName": "DonutChartIcon",
+    "category": "charts",
+    "tags": [
+      "ring",
+      "progress",
+      "breakdown",
+      "pie"
+    ]
+  },
+  {
+    "name": "trending-up",
+    "pascalName": "TrendingUpIcon",
+    "category": "charts",
+    "tags": [
+      "growth",
+      "increase",
+      "bull",
+      "profit",
+      "kpi"
+    ]
+  },
+  {
+    "name": "trending-down",
+    "pascalName": "TrendingDownIcon",
+    "category": "charts",
+    "tags": [
+      "decline",
+      "decrease",
+      "bear",
+      "loss",
+      "kpi"
+    ]
+  },
+  {
+    "name": "activity",
+    "pascalName": "ActivityIcon",
+    "category": "charts",
+    "tags": [
+      "pulse",
+      "heartbeat",
+      "health",
+      "telemetry",
+      "live"
+    ]
+  },
+  {
+    "name": "gauge",
+    "pascalName": "GaugeIcon",
+    "category": "charts",
+    "tags": [
+      "speed",
+      "performance",
+      "meter",
+      "score",
+      "benchmark"
+    ]
+  },
+  {
+    "name": "target",
+    "pascalName": "TargetIcon",
+    "category": "charts",
+    "tags": [
+      "goal",
+      "bullseye",
+      "focus",
+      "okr",
+      "accuracy"
+    ]
+  },
+  {
+    "name": "crosshair",
+    "pascalName": "CrosshairIcon",
+    "category": "charts",
+    "tags": [
+      "aim",
+      "precision",
+      "locate",
+      "gps"
+    ]
+  },
+  {
+    "name": "table",
+    "pascalName": "TableIcon",
+    "category": "charts",
+    "tags": [
+      "grid",
+      "spreadsheet",
+      "data",
+      "rows",
+      "columns"
+    ]
+  },
+  {
+    "name": "funnel",
+    "pascalName": "FunnelIcon",
+    "category": "charts",
+    "tags": [
+      "conversion",
+      "pipeline",
+      "cohort",
+      "stages"
+    ]
+  },
+  {
+    "name": "percent",
+    "pascalName": "PercentIcon",
+    "category": "charts",
+    "tags": [
+      "ratio",
+      "discount",
+      "rate",
+      "percentage"
+    ]
+  },
+  {
+    "name": "sigma",
+    "pascalName": "SigmaIcon",
+    "category": "charts",
+    "tags": [
+      "sum",
+      "total",
+      "aggregate",
+      "formula",
+      "math"
+    ]
+  },
+  {
+    "name": "calculator",
+    "pascalName": "CalculatorIcon",
+    "category": "charts",
+    "tags": [
+      "math",
+      "estimate",
+      "budget",
+      "finance"
+    ]
+  },
+  {
+    "name": "scatter-chart",
+    "pascalName": "ScatterChartIcon",
+    "category": "charts",
+    "tags": [
+      "correlation",
+      "points",
+      "plot",
+      "data"
+    ]
+  },
+  {
+    "name": "candlestick",
+    "pascalName": "CandlestickIcon",
+    "category": "charts",
+    "tags": [
+      "stocks",
+      "trading",
+      "market",
+      "finance",
+      "ohlc"
+    ]
+  },
+  {
+    "name": "shopping-cart",
+    "pascalName": "ShoppingCartIcon",
+    "category": "commerce",
+    "tags": [
+      "buy",
+      "checkout",
+      "ecommerce",
+      "basket"
+    ]
+  },
+  {
+    "name": "shopping-bag",
+    "pascalName": "ShoppingBagIcon",
+    "category": "commerce",
+    "tags": [
+      "store",
+      "purchase",
+      "retail",
+      "bag"
+    ]
+  },
+  {
+    "name": "store",
+    "pascalName": "StoreIcon",
+    "category": "commerce",
+    "tags": [
+      "shop",
+      "market",
+      "retail",
+      "merchant"
+    ]
+  },
+  {
+    "name": "tag",
+    "pascalName": "TagIcon",
+    "category": "commerce",
+    "tags": [
+      "label",
+      "price",
+      "category",
+      "badge"
+    ]
+  },
+  {
+    "name": "tags",
+    "pascalName": "TagsIcon",
+    "category": "commerce",
+    "tags": [
+      "labels",
+      "categories",
+      "prices",
+      "taxonomy"
+    ]
+  },
+  {
+    "name": "ticket",
+    "pascalName": "TicketIcon",
+    "category": "commerce",
+    "tags": [
+      "pass",
+      "coupon",
+      "voucher",
+      "event",
+      "support"
+    ]
+  },
+  {
+    "name": "barcode",
+    "pascalName": "BarcodeIcon",
+    "category": "commerce",
+    "tags": [
+      "sku",
+      "scan",
+      "product",
+      "upc"
+    ]
+  },
+  {
+    "name": "gift",
+    "pascalName": "GiftIcon",
+    "category": "commerce",
+    "tags": [
+      "present",
+      "reward",
+      "bonus",
+      "perk"
+    ]
+  },
+  {
+    "name": "credit-card",
+    "pascalName": "CreditCardIcon",
+    "category": "commerce",
+    "tags": [
+      "payment",
+      "billing",
+      "stripe",
+      "checkout",
+      "card"
+    ]
+  },
+  {
+    "name": "wallet",
+    "pascalName": "WalletIcon",
+    "category": "commerce",
+    "tags": [
+      "balance",
+      "money",
+      "account",
+      "crypto",
+      "payout"
+    ]
+  },
+  {
+    "name": "banknote",
+    "pascalName": "BanknoteIcon",
+    "category": "commerce",
+    "tags": [
+      "cash",
+      "bill",
+      "currency",
+      "money",
+      "payroll"
+    ]
+  },
+  {
+    "name": "coins",
+    "pascalName": "CoinsIcon",
+    "category": "commerce",
+    "tags": [
+      "money",
+      "credits",
+      "tokens",
+      "revenue"
+    ]
+  },
+  {
+    "name": "dollar-sign",
+    "pascalName": "DollarSignIcon",
+    "category": "commerce",
+    "tags": [
+      "usd",
+      "price",
+      "money",
+      "currency",
+      "cost"
+    ]
+  },
+  {
+    "name": "euro",
+    "pascalName": "EuroIcon",
+    "category": "commerce",
+    "tags": [
+      "eur",
+      "currency",
+      "money",
+      "europe"
+    ]
+  },
+  {
+    "name": "pound",
+    "pascalName": "PoundIcon",
+    "category": "commerce",
+    "tags": [
+      "gbp",
+      "sterling",
+      "currency",
+      "money"
+    ]
+  },
+  {
+    "name": "yen",
+    "pascalName": "YenIcon",
+    "category": "commerce",
+    "tags": [
+      "jpy",
+      "cny",
+      "currency",
+      "money"
+    ]
+  },
+  {
+    "name": "receipt",
+    "pascalName": "ReceiptIcon",
+    "category": "commerce",
+    "tags": [
+      "invoice",
+      "billing",
+      "order",
+      "statement"
+    ]
+  },
+  {
+    "name": "landmark",
+    "pascalName": "LandmarkIcon",
+    "category": "commerce",
+    "tags": [
+      "bank",
+      "institution",
+      "government",
+      "treasury"
+    ]
+  },
+  {
+    "name": "piggy-bank",
+    "pascalName": "PiggyBankIcon",
+    "category": "commerce",
+    "tags": [
+      "savings",
+      "budget",
+      "deposit",
+      "finance"
+    ]
+  },
+  {
+    "name": "scale",
+    "pascalName": "ScaleIcon",
+    "category": "commerce",
+    "tags": [
+      "balance",
+      "legal",
+      "justice",
+      "compare",
+      "weight"
+    ]
+  },
+  {
+    "name": "briefcase",
+    "pascalName": "BriefcaseIcon",
+    "category": "commerce",
+    "tags": [
+      "work",
+      "business",
+      "job",
+      "portfolio",
+      "enterprise"
+    ]
+  },
+  {
+    "name": "truck",
+    "pascalName": "TruckIcon",
+    "category": "commerce",
+    "tags": [
+      "delivery",
+      "shipping",
+      "logistics",
+      "freight"
+    ]
+  },
+  {
+    "name": "box",
+    "pascalName": "BoxIcon",
+    "category": "commerce",
+    "tags": [
+      "cube",
+      "parcel",
+      "inventory",
+      "3d"
+    ]
+  },
+  {
+    "name": "package-check",
+    "pascalName": "PackageCheckIcon",
+    "category": "commerce",
+    "tags": [
+      "delivered",
+      "fulfilled",
+      "verified",
+      "order"
+    ]
+  },
+  {
+    "name": "clock",
+    "pascalName": "ClockIcon",
+    "category": "time",
+    "tags": [
+      "time",
+      "schedule",
+      "hours",
+      "recent",
+      "duration"
+    ]
+  },
+  {
+    "name": "alarm-clock",
+    "pascalName": "AlarmClockIcon",
+    "category": "time",
+    "tags": [
+      "wakeup",
+      "reminder",
+      "alert",
+      "timer"
+    ]
+  },
+  {
+    "name": "timer",
+    "pascalName": "TimerIcon",
+    "category": "time",
+    "tags": [
+      "countdown",
+      "duration",
+      "pomodoro",
+      "stopwatch"
+    ]
+  },
+  {
+    "name": "stopwatch",
+    "pascalName": "StopwatchIcon",
+    "category": "time",
+    "tags": [
+      "speed",
+      "lap",
+      "benchmark",
+      "latency"
+    ]
+  },
+  {
+    "name": "hourglass",
+    "pascalName": "HourglassIcon",
+    "category": "time",
+    "tags": [
+      "wait",
+      "loading",
+      "pending",
+      "sand"
+    ]
+  },
+  {
+    "name": "history",
+    "pascalName": "HistoryIcon",
+    "category": "time",
+    "tags": [
+      "past",
+      "audit",
+      "changelog",
+      "recent",
+      "rewind"
+    ]
+  },
+  {
+    "name": "watch",
+    "pascalName": "WatchIcon",
+    "category": "time",
+    "tags": [
+      "smartwatch",
+      "wearable",
+      "apple-watch",
+      "time"
+    ]
+  },
+  {
+    "name": "calendar",
+    "pascalName": "CalendarIcon",
+    "category": "time",
+    "tags": [
+      "date",
+      "event",
+      "schedule",
+      "planner"
+    ]
+  },
+  {
+    "name": "calendar-days",
+    "pascalName": "CalendarDaysIcon",
+    "category": "time",
+    "tags": [
+      "month",
+      "grid",
+      "dates",
+      "schedule"
+    ]
+  },
+  {
+    "name": "calendar-check",
+    "pascalName": "CalendarCheckIcon",
+    "category": "time",
+    "tags": [
+      "booked",
+      "confirmed",
+      "rsvp",
+      "schedule"
+    ]
+  },
+  {
+    "name": "calendar-plus",
+    "pascalName": "CalendarPlusIcon",
+    "category": "time",
+    "tags": [
+      "new-event",
+      "schedule",
+      "add",
+      "book"
+    ]
+  },
+  {
+    "name": "calendar-x",
+    "pascalName": "CalendarXIcon",
+    "category": "time",
+    "tags": [
+      "cancel",
+      "unavailable",
+      "decline",
+      "event"
+    ]
+  },
+  {
+    "name": "calendar-clock",
+    "pascalName": "CalendarClockIcon",
+    "category": "time",
+    "tags": [
+      "deadline",
+      "reminder",
+      "meeting",
+      "appointment"
+    ]
+  },
+  {
+    "name": "calendar-range",
+    "pascalName": "CalendarRangeIcon",
+    "category": "time",
+    "tags": [
+      "duration",
+      "span",
+      "dates",
+      "sprint"
+    ]
+  },
+  {
+    "name": "sunrise",
+    "pascalName": "SunriseIcon",
+    "category": "time",
+    "tags": [
+      "morning",
+      "dawn",
+      "daybreak",
+      "brief"
+    ]
+  },
+  {
+    "name": "sunset",
+    "pascalName": "SunsetIcon",
+    "category": "time",
+    "tags": [
+      "evening",
+      "dusk",
+      "nightfall"
+    ]
+  },
+  {
+    "name": "globe-clock",
+    "pascalName": "GlobeClockIcon",
+    "category": "time",
+    "tags": [
+      "timezone",
+      "world-time",
+      "utc",
+      "global"
+    ]
+  },
+  {
+    "name": "bell-clock",
+    "pascalName": "BellClockIcon",
+    "category": "time",
+    "tags": [
+      "snooze",
+      "reminder",
+      "schedule",
+      "alert"
+    ]
+  },
+  {
+    "name": "info",
+    "pascalName": "InfoIcon",
+    "category": "status",
+    "tags": [
+      "information",
+      "details",
+      "about",
+      "tooltip",
+      "help"
+    ]
+  },
+  {
+    "name": "help-circle",
+    "pascalName": "HelpCircleIcon",
+    "category": "status",
+    "tags": [
+      "question",
+      "faq",
+      "support",
+      "docs",
+      "tooltip"
+    ]
+  },
+  {
+    "name": "alert-circle",
+    "pascalName": "AlertCircleIcon",
+    "category": "status",
+    "tags": [
+      "error",
+      "warning",
+      "exclamation",
+      "notice",
+      "important"
+    ]
+  },
+  {
+    "name": "alert-triangle",
+    "pascalName": "AlertTriangleIcon",
+    "category": "status",
+    "tags": [
+      "warning",
+      "caution",
+      "danger",
+      "hazard"
+    ]
+  },
+  {
+    "name": "octagon-alert",
+    "pascalName": "OctagonAlertIcon",
+    "category": "status",
+    "tags": [
+      "stop",
+      "critical",
+      "danger",
+      "blocker"
+    ]
+  },
+  {
+    "name": "ban",
+    "pascalName": "BanIcon",
+    "category": "status",
+    "tags": [
+      "prohibit",
+      "block",
+      "forbidden",
+      "disabled",
+      "cancel"
+    ]
+  },
+  {
+    "name": "slash",
+    "pascalName": "SlashIcon",
+    "category": "status",
+    "tags": [
+      "divider",
+      "command",
+      "separator",
+      "shortcut"
+    ]
+  },
+  {
+    "name": "loader",
+    "pascalName": "LoaderIcon",
+    "category": "status",
+    "tags": [
+      "spinner",
+      "loading",
+      "pending",
+      "progress",
+      "wait"
+    ]
+  },
+  {
+    "name": "circle-dot",
+    "pascalName": "CircleDotIcon",
+    "category": "status",
+    "tags": [
+      "radio",
+      "selected",
+      "active",
+      "online",
+      "status"
+    ]
+  },
+  {
+    "name": "circle-dashed",
+    "pascalName": "CircleDashedIcon",
+    "category": "status",
+    "tags": [
+      "backlog",
+      "todo",
+      "empty",
+      "placeholder",
+      "issue"
+    ]
+  },
+  {
+    "name": "flag",
+    "pascalName": "FlagIcon",
+    "category": "status",
+    "tags": [
+      "report",
+      "milestone",
+      "feature-flag",
+      "bookmark"
+    ]
+  },
+  {
+    "name": "heart",
+    "pascalName": "HeartIcon",
+    "category": "status",
+    "tags": [
+      "like",
+      "love",
+      "favorite",
+      "health",
+      "wishlist"
+    ]
+  },
+  {
+    "name": "heart-off",
+    "pascalName": "HeartOffIcon",
+    "category": "status",
+    "tags": [
+      "unlike",
+      "unfavorite",
+      "broken"
+    ]
+  },
+  {
+    "name": "star",
+    "pascalName": "StarIcon",
+    "category": "status",
+    "tags": [
+      "favorite",
+      "rating",
+      "featured",
+      "bookmark",
+      "review"
+    ]
+  },
+  {
+    "name": "star-half",
+    "pascalName": "StarHalfIcon",
+    "category": "status",
+    "tags": [
+      "rating",
+      "review",
+      "partial",
+      "score"
+    ]
+  },
+  {
+    "name": "award",
+    "pascalName": "AwardIcon",
+    "category": "status",
+    "tags": [
+      "medal",
+      "achievement",
+      "certificate",
+      "prize"
+    ]
+  },
+  {
+    "name": "trophy",
+    "pascalName": "TrophyIcon",
+    "category": "status",
+    "tags": [
+      "winner",
+      "leaderboard",
+      "first",
+      "cup",
+      "prize"
+    ]
+  },
+  {
+    "name": "crown",
+    "pascalName": "CrownIcon",
+    "category": "status",
+    "tags": [
+      "pro",
+      "premium",
+      "king",
+      "owner",
+      "vip"
+    ]
+  },
+  {
+    "name": "gem",
+    "pascalName": "GemIcon",
+    "category": "status",
+    "tags": [
+      "diamond",
+      "pro",
+      "premium",
+      "jewel",
+      "ruby"
+    ]
+  },
+  {
+    "name": "flame",
+    "pascalName": "FlameIcon",
+    "category": "status",
+    "tags": [
+      "fire",
+      "hot",
+      "trending",
+      "streak",
+      "popular"
+    ]
+  },
+  {
+    "name": "monitor",
+    "pascalName": "MonitorIcon",
+    "category": "devices",
+    "tags": [
+      "desktop",
+      "screen",
+      "display",
+      "imac",
+      "computer"
+    ]
+  },
+  {
+    "name": "laptop",
+    "pascalName": "LaptopIcon",
+    "category": "devices",
+    "tags": [
+      "macbook",
+      "notebook",
+      "computer",
+      "portable"
+    ]
+  },
+  {
+    "name": "tablet",
+    "pascalName": "TabletIcon",
+    "category": "devices",
+    "tags": [
+      "ipad",
+      "device",
+      "screen",
+      "mobile"
+    ]
+  },
+  {
+    "name": "smartphone",
+    "pascalName": "SmartphoneIcon",
+    "category": "devices",
+    "tags": [
+      "iphone",
+      "mobile",
+      "phone",
+      "cell",
+      "device"
+    ]
+  },
+  {
+    "name": "tv",
+    "pascalName": "TvIcon",
+    "category": "devices",
+    "tags": [
+      "television",
+      "display",
+      "stream",
+      "screen"
+    ]
+  },
+  {
+    "name": "printer",
+    "pascalName": "PrinterIcon",
+    "category": "devices",
+    "tags": [
+      "print",
+      "paper",
+      "document",
+      "fax"
+    ]
+  },
+  {
+    "name": "keyboard",
+    "pascalName": "KeyboardIcon",
+    "category": "devices",
+    "tags": [
+      "typing",
+      "shortcuts",
+      "input",
+      "keys"
+    ]
+  },
+  {
+    "name": "mouse",
+    "pascalName": "MouseIcon",
+    "category": "devices",
+    "tags": [
+      "pointer",
+      "scroll",
+      "click",
+      "hardware"
+    ]
+  },
+  {
+    "name": "gamepad",
+    "pascalName": "GamepadIcon",
+    "category": "devices",
+    "tags": [
+      "controller",
+      "gaming",
+      "play",
+      "console"
+    ]
+  },
+  {
+    "name": "battery",
+    "pascalName": "BatteryIcon",
+    "category": "devices",
+    "tags": [
+      "power",
+      "energy",
+      "empty",
+      "charge"
+    ]
+  },
+  {
+    "name": "battery-low",
+    "pascalName": "BatteryLowIcon",
+    "category": "devices",
+    "tags": [
+      "power",
+      "energy",
+      "drain",
+      "charge"
+    ]
+  },
+  {
+    "name": "battery-medium",
+    "pascalName": "BatteryMediumIcon",
+    "category": "devices",
+    "tags": [
+      "power",
+      "energy",
+      "half",
+      "charge"
+    ]
+  },
+  {
+    "name": "battery-full",
+    "pascalName": "BatteryFullIcon",
+    "category": "devices",
+    "tags": [
+      "power",
+      "energy",
+      "charged",
+      "100"
+    ]
+  },
+  {
+    "name": "battery-charging",
+    "pascalName": "BatteryChargingIcon",
+    "category": "devices",
+    "tags": [
+      "power",
+      "bolt",
+      "plug",
+      "fast-charge"
+    ]
+  },
+  {
+    "name": "wifi",
+    "pascalName": "WifiIcon",
+    "category": "devices",
+    "tags": [
+      "wireless",
+      "internet",
+      "network",
+      "signal",
+      "online"
+    ]
+  },
+  {
+    "name": "wifi-off",
+    "pascalName": "WifiOffIcon",
+    "category": "devices",
+    "tags": [
+      "offline",
+      "no-internet",
+      "disconnected"
+    ]
+  },
+  {
+    "name": "bluetooth",
+    "pascalName": "BluetoothIcon",
+    "category": "devices",
+    "tags": [
+      "wireless",
+      "pair",
+      "connect",
+      "audio"
+    ]
+  },
+  {
+    "name": "signal",
+    "pascalName": "SignalIcon",
+    "category": "devices",
+    "tags": [
+      "cellular",
+      "bars",
+      "5g",
+      "network",
+      "reception"
+    ]
+  },
+  {
+    "name": "cast",
+    "pascalName": "CastIcon",
+    "category": "devices",
+    "tags": [
+      "chromecast",
+      "stream",
+      "screen-share",
+      "mirror"
+    ]
+  },
+  {
+    "name": "airplay",
+    "pascalName": "AirplayIcon",
+    "category": "devices",
+    "tags": [
+      "apple",
+      "stream",
+      "mirror",
+      "cast",
+      "screen"
+    ]
+  },
+  {
+    "name": "nfc",
+    "pascalName": "NfcIcon",
+    "category": "devices",
+    "tags": [
+      "contactless",
+      "tap",
+      "pay",
+      "rfid"
+    ]
+  },
+  {
+    "name": "usb",
+    "pascalName": "UsbIcon",
+    "category": "devices",
+    "tags": [
+      "port",
+      "cable",
+      "drive",
+      "connect"
+    ]
+  },
+  {
+    "name": "plug",
+    "pascalName": "PlugIcon",
+    "category": "devices",
+    "tags": [
+      "integration",
+      "power",
+      "connect",
+      "extension"
+    ]
+  },
+  {
+    "name": "power",
+    "pascalName": "PowerIcon",
+    "category": "devices",
+    "tags": [
+      "shutdown",
+      "start",
+      "toggle",
+      "standby",
+      "on-off"
+    ]
+  },
+  {
+    "name": "map",
+    "pascalName": "MapIcon",
+    "category": "maps",
+    "tags": [
+      "location",
+      "world",
+      "atlas",
+      "navigation",
+      "directions"
+    ]
+  },
+  {
+    "name": "map-pin",
+    "pascalName": "MapPinIcon",
+    "category": "maps",
+    "tags": [
+      "location",
+      "marker",
+      "place",
+      "address",
+      "gps"
+    ]
+  },
+  {
+    "name": "map-pin-off",
+    "pascalName": "MapPinOffIcon",
+    "category": "maps",
+    "tags": [
+      "no-location",
+      "gps-off",
+      "privacy"
+    ]
+  },
+  {
+    "name": "navigation",
+    "pascalName": "NavigationIcon",
+    "category": "maps",
+    "tags": [
+      "gps",
+      "cursor",
+      "location",
+      "direction",
+      "pointer"
+    ]
+  },
+  {
+    "name": "compass",
+    "pascalName": "CompassIcon",
+    "category": "maps",
+    "tags": [
+      "explore",
+      "discover",
+      "safari",
+      "direction",
+      "north"
+    ]
+  },
+  {
+    "name": "route",
+    "pascalName": "RouteIcon",
+    "category": "maps",
+    "tags": [
+      "path",
+      "journey",
+      "directions",
+      "roadmap"
+    ]
+  },
+  {
+    "name": "signpost",
+    "pascalName": "SignpostIcon",
+    "category": "maps",
+    "tags": [
+      "directions",
+      "guide",
+      "wayfinding",
+      "road"
+    ]
+  },
+  {
+    "name": "milestone",
+    "pascalName": "MilestoneIcon",
+    "category": "maps",
+    "tags": [
+      "goal",
+      "roadmap",
+      "checkpoint",
+      "stage"
+    ]
+  },
+  {
+    "name": "building",
+    "pascalName": "BuildingIcon",
+    "category": "maps",
+    "tags": [
+      "office",
+      "company",
+      "enterprise",
+      "hq",
+      "construction"
+    ]
+  },
+  {
+    "name": "building-2",
+    "pascalName": "Building2Icon",
+    "category": "maps",
+    "tags": [
+      "city",
+      "skyline",
+      "campus",
+      "real-estate"
+    ]
+  },
+  {
+    "name": "factory",
+    "pascalName": "FactoryIcon",
+    "category": "maps",
+    "tags": [
+      "industrial",
+      "manufacturing",
+      "plant",
+      "build"
+    ]
+  },
+  {
+    "name": "hospital",
+    "pascalName": "HospitalIcon",
+    "category": "maps",
+    "tags": [
+      "healthcare",
+      "medical",
+      "clinic",
+      "emergency"
+    ]
+  },
+  {
+    "name": "school",
+    "pascalName": "SchoolIcon",
+    "category": "maps",
+    "tags": [
+      "campus",
+      "education",
+      "university",
+      "academy"
+    ]
+  },
+  {
+    "name": "warehouse",
+    "pascalName": "WarehouseIcon",
+    "category": "maps",
+    "tags": [
+      "storage",
+      "depot",
+      "logistics",
+      "inventory"
+    ]
+  },
+  {
+    "name": "car",
+    "pascalName": "CarIcon",
+    "category": "maps",
+    "tags": [
+      "drive",
+      "auto",
+      "vehicle",
+      "commute",
+      "transport"
+    ]
+  },
+  {
+    "name": "plane",
+    "pascalName": "PlaneIcon",
+    "category": "maps",
+    "tags": [
+      "flight",
+      "travel",
+      "airport",
+      "airplane",
+      "trip"
+    ]
+  },
+  {
+    "name": "train",
+    "pascalName": "TrainIcon",
+    "category": "maps",
+    "tags": [
+      "rail",
+      "transit",
+      "subway",
+      "commute"
+    ]
+  },
+  {
+    "name": "ship",
+    "pascalName": "ShipIcon",
+    "category": "maps",
+    "tags": [
+      "boat",
+      "freight",
+      "deploy",
+      "launch",
+      "ocean"
+    ]
+  },
+  {
+    "name": "bike",
+    "pascalName": "BikeIcon",
+    "category": "maps",
+    "tags": [
+      "bicycle",
+      "cycling",
+      "fitness",
+      "eco"
+    ]
+  },
+  {
+    "name": "rocket",
+    "pascalName": "RocketIcon",
+    "category": "maps",
+    "tags": [
+      "launch",
+      "ship",
+      "deploy",
+      "startup",
+      "fast"
+    ]
+  },
+  {
+    "name": "sun",
+    "pascalName": "SunIcon",
+    "category": "weather",
+    "tags": [
+      "light-mode",
+      "day",
+      "bright",
+      "weather",
+      "solar"
+    ]
+  },
+  {
+    "name": "moon",
+    "pascalName": "MoonIcon",
+    "category": "weather",
+    "tags": [
+      "dark-mode",
+      "night",
+      "sleep",
+      "theme"
+    ]
+  },
+  {
+    "name": "sun-moon",
+    "pascalName": "SunMoonIcon",
+    "category": "weather",
+    "tags": [
+      "theme",
+      "system",
+      "auto",
+      "light-dark"
+    ]
+  },
+  {
+    "name": "cloud-sun",
+    "pascalName": "CloudSunIcon",
+    "category": "weather",
+    "tags": [
+      "partly-cloudy",
+      "forecast",
+      "day"
+    ]
+  },
+  {
+    "name": "cloud-rain",
+    "pascalName": "CloudRainIcon",
+    "category": "weather",
+    "tags": [
+      "shower",
+      "wet",
+      "weather",
+      "forecast"
+    ]
+  },
+  {
+    "name": "cloud-snow",
+    "pascalName": "CloudSnowIcon",
+    "category": "weather",
+    "tags": [
+      "winter",
+      "blizzard",
+      "cold",
+      "forecast"
+    ]
+  },
+  {
+    "name": "cloud-lightning",
+    "pascalName": "CloudLightningIcon",
+    "category": "weather",
+    "tags": [
+      "storm",
+      "thunder",
+      "weather",
+      "forecast"
+    ]
+  },
+  {
+    "name": "wind",
+    "pascalName": "WindIcon",
+    "category": "weather",
+    "tags": [
+      "breeze",
+      "air",
+      "airflow",
+      "gust",
+      "speed"
+    ]
+  },
+  {
+    "name": "droplet",
+    "pascalName": "DropletIcon",
+    "category": "weather",
+    "tags": [
+      "water",
+      "rain",
+      "humidity",
+      "liquid",
+      "opacity"
+    ]
+  },
+  {
+    "name": "snowflake",
+    "pascalName": "SnowflakeIcon",
+    "category": "weather",
+    "tags": [
+      "freeze",
+      "cold",
+      "winter",
+      "ice",
+      "frost"
+    ]
+  },
+  {
+    "name": "thermometer",
+    "pascalName": "ThermometerIcon",
+    "category": "weather",
+    "tags": [
+      "temperature",
+      "heat",
+      "climate",
+      "fever"
+    ]
+  },
+  {
+    "name": "umbrella",
+    "pascalName": "UmbrellaIcon",
+    "category": "weather",
+    "tags": [
+      "rain",
+      "protection",
+      "coverage",
+      "insurance"
+    ]
+  },
+  {
+    "name": "rainbow",
+    "pascalName": "RainbowIcon",
+    "category": "weather",
+    "tags": [
+      "color",
+      "spectrum",
+      "sky",
+      "pride"
+    ]
+  },
+  {
+    "name": "zap",
+    "pascalName": "ZapIcon",
+    "category": "weather",
+    "tags": [
+      "lightning",
+      "fast",
+      "power",
+      "energy",
+      "action",
+      "bolt"
+    ]
+  },
+  {
+    "name": "zap-off",
+    "pascalName": "ZapOffIcon",
+    "category": "weather",
+    "tags": [
+      "no-flash",
+      "power-off",
+      "disabled",
+      "bolt"
+    ]
+  },
+  {
+    "name": "leaf",
+    "pascalName": "LeafIcon",
+    "category": "weather",
+    "tags": [
+      "eco",
+      "nature",
+      "green",
+      "sustainable",
+      "plant"
+    ]
+  },
+  {
+    "name": "tree",
+    "pascalName": "TreeIcon",
+    "category": "weather",
+    "tags": [
+      "pine",
+      "forest",
+      "nature",
+      "park",
+      "outdoor"
+    ]
+  },
+  {
+    "name": "waves",
+    "pascalName": "WavesIcon",
+    "category": "weather",
+    "tags": [
+      "water",
+      "ocean",
+      "sea",
+      "flow",
+      "stream"
+    ]
+  },
+  {
+    "name": "pen",
+    "pascalName": "PenIcon",
+    "category": "design",
+    "tags": [
+      "write",
+      "draw",
+      "sign",
+      "ink"
+    ]
+  },
+  {
+    "name": "pencil",
+    "pascalName": "PencilIcon",
+    "category": "design",
+    "tags": [
+      "sketch",
+      "edit",
+      "draw",
+      "annotate"
+    ]
+  },
+  {
+    "name": "pen-tool",
+    "pascalName": "PenToolIcon",
+    "category": "design",
+    "tags": [
+      "vector",
+      "bezier",
+      "figma",
+      "path",
+      "illustrator"
+    ]
+  },
+  {
+    "name": "brush",
+    "pascalName": "BrushIcon",
+    "category": "design",
+    "tags": [
+      "paint",
+      "style",
+      "art",
+      "format"
+    ]
+  },
+  {
+    "name": "paint-bucket",
+    "pascalName": "PaintBucketIcon",
+    "category": "design",
+    "tags": [
+      "fill",
+      "color",
+      "background",
+      "theme"
+    ]
+  },
+  {
+    "name": "palette",
+    "pascalName": "PaletteIcon",
+    "category": "design",
+    "tags": [
+      "color",
+      "theme",
+      "appearance",
+      "brand",
+      "art"
+    ]
+  },
+  {
+    "name": "pipette",
+    "pascalName": "PipetteIcon",
+    "category": "design",
+    "tags": [
+      "eyedropper",
+      "color-picker",
+      "sample",
+      "hex"
+    ]
+  },
+  {
+    "name": "swatch",
+    "pascalName": "SwatchIcon",
+    "category": "design",
+    "tags": [
+      "tokens",
+      "colors",
+      "themes",
+      "fan"
+    ]
+  },
+  {
+    "name": "ruler",
+    "pascalName": "RulerIcon",
+    "category": "design",
+    "tags": [
+      "measure",
+      "size",
+      "dimensions",
+      "spacing",
+      "estimate"
+    ]
+  },
+  {
+    "name": "wrench",
+    "pascalName": "WrenchIcon",
+    "category": "design",
+    "tags": [
+      "tool",
+      "fix",
+      "repair",
+      "maintenance",
+      "build"
+    ]
+  },
+  {
+    "name": "hammer",
+    "pascalName": "HammerIcon",
+    "category": "design",
+    "tags": [
+      "build",
+      "construct",
+      "tool",
+      "make"
+    ]
+  },
+  {
+    "name": "nut",
+    "pascalName": "NutIcon",
+    "category": "design",
+    "tags": [
+      "bolt",
+      "hardware",
+      "hexagon",
+      "config"
+    ]
+  },
+  {
+    "name": "magnet",
+    "pascalName": "MagnetIcon",
+    "category": "design",
+    "tags": [
+      "snap",
+      "attract",
+      "align",
+      "dock"
+    ]
+  },
+  {
+    "name": "flashlight",
+    "pascalName": "FlashlightIcon",
+    "category": "design",
+    "tags": [
+      "torch",
+      "beam",
+      "search",
+      "light"
+    ]
+  },
+  {
+    "name": "lightbulb",
+    "pascalName": "LightbulbIcon",
+    "category": "design",
+    "tags": [
+      "idea",
+      "tip",
+      "insight",
+      "suggestion",
+      "hint"
+    ]
+  },
+  {
+    "name": "lamp",
+    "pascalName": "LampIcon",
+    "category": "design",
+    "tags": [
+      "desk",
+      "light",
+      "workspace",
+      "interior"
+    ]
+  },
+  {
+    "name": "toggle-left",
+    "pascalName": "ToggleLeftIcon",
+    "category": "design",
+    "tags": [
+      "switch",
+      "off",
+      "disabled",
+      "boolean"
+    ]
+  },
+  {
+    "name": "toggle-right",
+    "pascalName": "ToggleRightIcon",
+    "category": "design",
+    "tags": [
+      "switch",
+      "on",
+      "enabled",
+      "boolean"
+    ]
+  },
+  {
+    "name": "contrast",
+    "pascalName": "ContrastIcon",
+    "category": "design",
+    "tags": [
+      "theme",
+      "invert",
+      "appearance",
+      "accessibility"
+    ]
+  },
+  {
+    "name": "sun-dim",
+    "pascalName": "SunDimIcon",
+    "category": "design",
+    "tags": [
+      "brightness",
+      "low-light",
+      "screen",
+      "display"
+    ]
+  },
+  {
+    "name": "book",
+    "pascalName": "BookIcon",
+    "category": "education",
+    "tags": [
+      "docs",
+      "documentation",
+      "read",
+      "manual",
+      "guide"
+    ]
+  },
+  {
+    "name": "book-open",
+    "pascalName": "BookOpenIcon",
+    "category": "education",
+    "tags": [
+      "docs",
+      "wiki",
+      "knowledge",
+      "handbook",
+      "study"
+    ]
+  },
+  {
+    "name": "bookmark-check",
+    "pascalName": "BookmarkCheckIcon",
+    "category": "education",
+    "tags": [
+      "saved",
+      "read",
+      "done",
+      "favorite"
+    ]
+  },
+  {
+    "name": "library",
+    "pascalName": "LibraryIcon",
+    "category": "education",
+    "tags": [
+      "books",
+      "catalog",
+      "collection",
+      "archive"
+    ]
+  },
+  {
+    "name": "newspaper",
+    "pascalName": "NewspaperIcon",
+    "category": "education",
+    "tags": [
+      "news",
+      "feed",
+      "blog",
+      "press",
+      "article"
+    ]
+  },
+  {
+    "name": "notebook",
+    "pascalName": "NotebookIcon",
+    "category": "education",
+    "tags": [
+      "journal",
+      "notes",
+      "obsidian",
+      "vault",
+      "diary"
+    ]
+  },
+  {
+    "name": "sticky-note",
+    "pascalName": "StickyNoteIcon",
+    "category": "education",
+    "tags": [
+      "memo",
+      "post-it",
+      "note",
+      "reminder"
+    ]
+  },
+  {
+    "name": "graduation-cap",
+    "pascalName": "GraduationCapIcon",
+    "category": "education",
+    "tags": [
+      "learn",
+      "academy",
+      "course",
+      "degree",
+      "tutorial"
+    ]
+  },
+  {
+    "name": "scroll",
+    "pascalName": "ScrollIcon",
+    "category": "education",
+    "tags": [
+      "contract",
+      "script",
+      "license",
+      "parchment"
+    ]
+  },
+  {
+    "name": "presentation",
+    "pascalName": "PresentationIcon",
+    "category": "education",
+    "tags": [
+      "slides",
+      "deck",
+      "keynote",
+      "pitch",
+      "chart"
+    ]
+  },
+  {
+    "name": "coffee",
+    "pascalName": "CoffeeIcon",
+    "category": "education",
+    "tags": [
+      "cafe",
+      "cup",
+      "break",
+      "morning",
+      "drink"
+    ]
+  },
+  {
+    "name": "utensils",
+    "pascalName": "UtensilsIcon",
+    "category": "education",
+    "tags": [
+      "food",
+      "restaurant",
+      "dining",
+      "lunch"
+    ]
+  },
+  {
+    "name": "pill",
+    "pascalName": "PillIcon",
+    "category": "education",
+    "tags": [
+      "medicine",
+      "health",
+      "capsule",
+      "pharmacy"
+    ]
+  },
+  {
+    "name": "stethoscope",
+    "pascalName": "StethoscopeIcon",
+    "category": "education",
+    "tags": [
+      "doctor",
+      "medical",
+      "health",
+      "diagnostics"
+    ]
+  },
+  {
+    "name": "dumbbell",
+    "pascalName": "DumbbellIcon",
+    "category": "education",
+    "tags": [
+      "fitness",
+      "gym",
+      "workout",
+      "strength",
+      "health"
+    ]
+  },
+  {
+    "name": "puzzle",
+    "pascalName": "PuzzleIcon",
+    "category": "education",
+    "tags": [
+      "plugin",
+      "extension",
+      "addon",
+      "integration",
+      "game"
+    ]
+  },
+  {
+    "name": "circle",
+    "pascalName": "CircleIcon",
+    "category": "shapes",
+    "tags": [
+      "round",
+      "dot",
+      "ring",
+      "shape",
+      "geometry"
+    ]
+  },
+  {
+    "name": "square",
+    "pascalName": "SquareIcon",
+    "category": "shapes",
+    "tags": [
+      "box",
+      "rect",
+      "checkbox",
+      "shape",
+      "geometry"
+    ]
+  },
+  {
+    "name": "triangle",
+    "pascalName": "TriangleIcon",
+    "category": "shapes",
+    "tags": [
+      "delta",
+      "pyramid",
+      "vercel",
+      "shape",
+      "geometry"
+    ]
+  },
+  {
+    "name": "diamond",
+    "pascalName": "DiamondIcon",
+    "category": "shapes",
+    "tags": [
+      "rhombus",
+      "gem",
+      "milestone",
+      "shape",
+      "geometry"
+    ]
+  },
+  {
+    "name": "pentagon",
+    "pascalName": "PentagonIcon",
+    "category": "shapes",
+    "tags": [
+      "polygon",
+      "five",
+      "shape",
+      "geometry"
+    ]
+  },
+  {
+    "name": "hexagon",
+    "pascalName": "HexagonIcon",
+    "category": "shapes",
+    "tags": [
+      "polygon",
+      "six",
+      "node",
+      "shape",
+      "geometry"
+    ]
+  },
+  {
+    "name": "octagon",
+    "pascalName": "OctagonIcon",
+    "category": "shapes",
+    "tags": [
+      "polygon",
+      "eight",
+      "stop",
+      "shape",
+      "geometry"
+    ]
+  },
+  {
+    "name": "pill-shape",
+    "pascalName": "PillShapeIcon",
+    "category": "shapes",
+    "tags": [
+      "stadium",
+      "badge",
+      "chip",
+      "tag",
+      "capsule"
+    ]
+  },
+  {
+    "name": "cone",
+    "pascalName": "ConeIcon",
+    "category": "shapes",
+    "tags": [
+      "3d",
+      "geometry",
+      "solid",
+      "mesh"
+    ]
+  },
+  {
+    "name": "cylinder",
+    "pascalName": "CylinderIcon",
+    "category": "shapes",
+    "tags": [
+      "3d",
+      "tube",
+      "drum",
+      "geometry"
+    ]
+  },
+  {
+    "name": "cube",
+    "pascalName": "CubeIcon",
+    "category": "shapes",
+    "tags": [
+      "3d",
+      "blender",
+      "model",
+      "mesh",
+      "object"
+    ]
+  },
+  {
+    "name": "sphere",
+    "pascalName": "SphereIcon",
+    "category": "shapes",
+    "tags": [
+      "3d",
+      "orb",
+      "ball",
+      "mesh",
+      "geometry"
+    ]
+  },
+  {
+    "name": "divide",
+    "pascalName": "DivideIcon",
+    "category": "shapes",
+    "tags": [
+      "math",
+      "split",
+      "operator",
+      "ratio"
+    ]
+  },
+  {
+    "name": "infinity",
+    "pascalName": "InfinityIcon",
+    "category": "shapes",
+    "tags": [
+      "loop",
+      "unlimited",
+      "forever",
+      "eternal",
+      "math"
+    ]
+  },
+  {
+    "name": "pi",
+    "pascalName": "PiIcon",
+    "category": "shapes",
+    "tags": [
+      "math",
+      "constant",
+      "formula",
+      "geometry"
+    ]
+  },
+  {
+    "name": "asterisk",
+    "pascalName": "AsteriskIcon",
+    "category": "shapes",
+    "tags": [
+      "wildcard",
+      "required",
+      "star",
+      "multiply",
+      "footnote"
+    ]
+  },
+  {
+    "name": "percent-circle",
+    "pascalName": "PercentCircleIcon",
+    "category": "shapes",
+    "tags": [
+      "discount",
+      "promo",
+      "deal",
+      "rate",
+      "badge"
+    ]
+  },
+  {
+    "name": "sparkles-circle",
+    "pascalName": "SparklesCircleIcon",
+    "category": "shapes",
+    "tags": [
+      "ai-badge",
+      "featured",
+      "magic",
+      "highlight"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "name": "neon-icons-monorepo",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.28.12",
+  "scripts": {
+    "build:icons": "pnpm --filter @neon-icons/core build:icons",
+    "build": "pnpm --filter @neon-icons/core build:icons && pnpm --filter @neon-icons/react build && pnpm --filter @neon-icons/showcase build",
+    "verify": "pnpm --filter @neon-icons/core verify",
+    "sheets": "pnpm --filter @neon-icons/core sheets",
+    "typecheck": "pnpm -r typecheck",
+    "dev": "pnpm --filter @neon-icons/showcase dev"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.8.2"
+  }
+}

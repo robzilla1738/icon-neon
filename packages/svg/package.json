@@ -1,0 +1,19 @@
+{
+  "name": "@neon-icons/svg",
+  "version": "1.0.0",
+  "description": "530 cohesive modern SVG icons in outline and filled styles across 1.25, 1.5, and 2px stroke weights.",
+  "license": "MIT",
+  "files": [
+    "svg",
+    "manifest.json"
+  ],
+  "exports": {
+    "./manifest.json": "./manifest.json",
+    "./outline/1.25/*": "./svg/outline/1.25/*",
+    "./outline/1.5/*": "./svg/outline/1.5/*",
+    "./outline/2/*": "./svg/outline/2/*",
+    "./filled/1.25/*": "./svg/filled/1.25/*",
+    "./filled/1.5/*": "./svg/filled/1.5/*",
+    "./filled/2/*": "./svg/filled/2/*"
+  }
+}
